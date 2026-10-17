@@ -10,9 +10,9 @@
         "gatehouse",
         "garden"
       ],
-      "detail": "Photographic arrival, gates and workbench.",
+      "detail": "Plantation approach · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Photographic arrival, gates and workbench."
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "hall",
@@ -23,9 +23,9 @@
         "study",
         "classroom"
       ],
-      "detail": "Photographic mansion hall and concealed records.",
+      "detail": "Grand entrance hall · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Photographic mansion hall and concealed records."
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "study",
@@ -34,82 +34,82 @@
       "neighbors": [
         "hall"
       ],
-      "detail": "Photographic private records room.",
+      "detail": "Headmistress’s Study · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Photographic private records room."
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "classroom",
       "name": "Finishing-school classroom",
-      "url": "original-case-archive.html?screen=estate&room=school",
+      "url": "./?scene=classroom",
       "neighbors": [
         "hall",
         "dormitory",
         "workshop"
       ],
-      "detail": "Estate classroom search. Original investigation progression applies.",
+      "detail": "Finishing-school classroom · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Gerouge investigation · original scene art retained where not yet upgraded"
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "dormitory",
       "name": "North dormitory",
-      "url": "original-case-archive.html?screen=estate&room=dormitory",
+      "url": "./?scene=dormitory",
       "neighbors": [
         "classroom",
         "nursery"
       ],
-      "detail": "Estate dormitory search. Original progression applies.",
+      "detail": "North dormitory · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Gerouge investigation · original scene art retained where not yet upgraded"
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "nursery",
       "name": "Abandoned nursery",
-      "url": "original-case-archive.html?screen=estate&room=nursery",
+      "url": "./?scene=nursery",
       "neighbors": [
         "dormitory",
         "greenhouse"
       ],
-      "detail": "Eva’s childhood records. Photographic upgrade pending. Original scene art; photographic conversion pending.",
+      "detail": "Personal letters, concealed route and chest mechanism.",
       "group": "Gerouge estate",
-      "status": "Eva’s childhood records. Photographic upgrade pending."
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "greenhouse",
       "name": "Rose conservatory",
-      "url": "estate-exploration.html?room=garden",
+      "url": "./?scene=greenhouse",
       "neighbors": [
         "garden",
         "workshop"
       ],
-      "detail": "Shared conservatory view; estate evidence sweep.",
+      "detail": "Rose conservatory · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Gerouge investigation · original scene art retained where not yet upgraded"
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "workshop",
       "name": "Restoration workshop",
-      "url": "plantation-day.html?room=workshop",
+      "url": "./?scene=workshop",
       "neighbors": [
         "classroom",
         "greenhouse"
       ],
-      "detail": "Photographic workshop in the explicitly labeled 1896 reconstruction.",
+      "detail": "Present-day maintenance tray; historical lantern crafting remains in Investigation chapters.",
       "group": "Gerouge estate",
-      "status": "Photographic workshop in the explicitly labeled 1896 reconstruction."
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "carriage",
       "name": "Carriage house",
-      "url": "original-case-archive.html?screen=estate&room=carriage",
+      "url": "./?scene=carriage",
       "neighbors": [
         "garden",
         "orchard"
       ],
-      "detail": "Service grounds and the escape-route map. Progression applies. Original scene art; photographic conversion pending.",
+      "detail": "Carriage house · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Gerouge investigation · original scene art retained where not yet upgraded"
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "vault",
@@ -119,47 +119,47 @@
         "chapel",
         "stairs"
       ],
-      "detail": "Photographic scene with hands-on missing-girls investigation. Records beneath the chapel. Requires opening the service hatch.",
+      "detail": "Underground records vault · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Photographic scene with hands-on missing-girls investigation."
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "tower",
       "name": "Sealed tower chamber",
-      "url": "original-case-archive.html?screen=estate&room=tower",
+      "url": "./?scene=tower",
       "neighbors": [
         "hall",
         "tower-listening"
       ],
-      "detail": "Final estate room. Original progression applies. Original scene art; photographic conversion pending.",
+      "detail": "Hester’s statement, mirror tracing and modern footprints.",
       "group": "Gerouge estate",
-      "status": "Gerouge investigation · original scene art retained where not yet upgraded"
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "gatehouse",
       "name": "Estate gatehouse",
-      "url": "original-case-archive.html?screen=chapel&room=gate",
+      "url": "./?scene=gatehouse",
       "neighbors": [
         "approach",
         "garden"
       ],
-      "detail": "Two seals and a dated letter. Original scene art; photographic conversion pending.",
+      "detail": "Estate gatehouse · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Gerouge investigation · original scene art retained where not yet upgraded"
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "garden",
       "name": "Overgrown rose garden",
-      "url": "original-case-archive.html?screen=chapel&room=rose",
+      "url": "./?scene=garden",
       "neighbors": [
         "approach",
         "greenhouse",
         "chapel",
         "carriage"
       ],
-      "detail": "Memorial roses and recent tool marks. Original scene art; photographic conversion pending.",
+      "detail": "Overgrown rose garden · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Gerouge investigation · original scene art retained where not yet upgraded"
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "chapel",
@@ -170,90 +170,90 @@
         "vestry",
         "vault"
       ],
-      "detail": "Photographic scene with hands-on missing-girls investigation. Shared chapel view. Requires the hall’s chapel key.",
+      "detail": "Sealed chapel · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Photographic scene with hands-on missing-girls investigation."
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "vestry",
       "name": "Chapel vestry",
-      "url": "original-case-archive.html?screen=chapel&room=vestry",
+      "url": "./?scene=vestry",
       "neighbors": [
         "chapel",
         "stairs"
       ],
-      "detail": "Donation ledger and cipher. Original scene art; photographic conversion pending.",
+      "detail": "Chapel vestry · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Gerouge investigation · original scene art retained where not yet upgraded"
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "stairs",
       "name": "Sealed staircase",
-      "url": "original-case-archive.html?screen=chapel&room=stair",
+      "url": "./?scene=stairs",
       "neighbors": [
         "vestry",
         "vault"
       ],
-      "detail": "The route beneath the chapel. Original scene art; photographic conversion pending.",
+      "detail": "Sealed staircase · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Gerouge investigation · original scene art retained where not yet upgraded"
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "trust-archive",
       "name": "Heritage Trust records",
-      "url": "original-case-archive.html?screen=finale&room=3",
+      "url": "./?scene=trust-archive",
       "neighbors": [
         "gatehouse"
       ],
-      "detail": "The present-day records office on the estate. Original scene art; photographic conversion pending.",
+      "detail": "Heritage Trust records · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Gerouge investigation · original scene art retained where not yet upgraded"
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "passage",
       "name": "Flooded service passage",
-      "url": "original-case-archive.html?screen=finale&room=1",
+      "url": "./?scene=passage",
       "neighbors": [
         "vault",
         "orchard"
       ],
-      "detail": "Physical traces of the evacuation. Original scene art; photographic conversion pending.",
+      "detail": "Raised ledge, initials and an operable sluice linkage.",
       "group": "Gerouge estate",
-      "status": "Gerouge investigation · original scene art retained where not yet upgraded"
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "tower-listening",
       "name": "Tower listening room",
-      "url": "original-case-archive.html?screen=finale&room=2",
+      "url": "./?scene=tower-listening",
       "neighbors": [
         "tower"
       ],
-      "detail": "Bell lever and final-night evidence. Original scene art; photographic conversion pending.",
+      "detail": "Trace the cables, repair the lever and test the warning bell.",
       "group": "Gerouge estate",
-      "status": "Gerouge investigation · original scene art retained where not yet upgraded"
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "orchard",
       "name": "Abandoned orchard",
-      "url": "original-case-archive.html?screen=grounds&room=orchard",
+      "url": "./?scene=orchard",
       "neighbors": [
         "carriage",
         "passage"
       ],
-      "detail": "Gerouge’s independent orchard escape-route search. Original scene art; photographic conversion pending.",
+      "detail": "Abandoned orchard · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Gerouge investigation · original scene art retained where not yet upgraded"
+      "status": "Locally packaged photographic environment · playable investigation"
     },
     {
       "id": "annex",
       "name": "Dormitory annex",
-      "url": "evidence-after-dark.html?room=ward",
+      "url": "./?scene=annex",
       "neighbors": [
         "dormitory"
       ],
-      "detail": "A distinct annex, not another version of the same dormitory. Original scene art; photographic upgrade pending.",
+      "detail": "Dormitory annex · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "A distinct annex, not another version of the same dormitory. Original scene art; photographic upgrade pending."
+      "status": "Locally packaged photographic environment · playable investigation"
     }
   ]
 }

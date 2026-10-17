@@ -16,18 +16,30 @@ Shared hall, study, dormitory, classroom, conservatory and vault visits use cons
 
 ## Photographic scenes
 
-Nine locally packaged plates: approach, hall, study, classroom, dormitory, greenhouse, workshop, chapel and vault. The school-day office uses the same study architecture. All scenery and Gothic fonts needed for these rooms are packaged locally. Ink, plum, burgundy and aged ivory colors accompany Cinzel and Crimson Pro. Stay Alive informs atmosphere only; Gerouge retains its own story and characters.
+All 21 distinct physical locations in the travel map now have appropriate locally packaged photographic scenery and playable scene hotspots. The twelve new locations are nursery, flooded passage, tower chamber, tower bell/listening room, carriage house, gatehouse, outdoor rose garden, vestry, sealed staircase, Trust archive, orchard and annex. The nursery also has a matched open-chest variant for the returning-room event.
+
+The original estate/chapel/finale/annex assignments use the same location plates. The registrar drawer is a study assignment rather than a separate room. School-day play stays explicitly labeled as a historical reconstruction. Ink/plum/burgundy/ivory colors and local Cinzel/Crimson Pro fonts remain. All scene images are generated depictions of fictional Gerouge.
+
+## The girls’ last night
+
+`deep-investigation.js` extends the main scene engine without replacing any earlier chapter. Seven collectible personal accounts connect Mara’s promise, Iris’s stitched signal colors, Eliza’s route sketch and the four carriage passengers’ independent records. Recover the nursery chest tracing and retaining pin; document and operate the sluice in sequence; trace the three bell cables using two sources; recover a workshop clevis pin, repair the lever and engage its ratchet. The lantern reveals a glass negative. Reconstruct the four supported movements and preserve the finding.
+
+Returning rooms react: the nursery chest is visibly open, a classroom card is altered, and a previously documented study photograph is removed from its backing. This last event only occurs after the photograph was earned, so it cannot block the original study puzzle or remove the saved copy. One controlled bell test receives an unexplained answer. The game records it without calling it proof of a haunting.
+
+Rook, Miriam and Agnes retain asked questions, withheld evidence and presented records. Their follow-ups change with documentary and bell evidence; earlier statements remain in the journal. Reconstruction clarifies the last supported route, not the three girls’ unknown later fates.
 
 ## Saves
 
 The live origin is unchanged. `gerouge-case-save.js` reads the historical mixed save once and copies only Gerouge estate, chapel, finale, evidence and orchard progress to `hollowing-gerouge-case-v1`. The original mixed save is left untouched. Foreign cases are neither loaded nor exported. The alternate study save migrates earned items, flags and decisions into the canonical study. Other Gerouge chapter keys remain intact.
 
-`hollowing-investigation-v1` stores the new evidence and deductions. Main and school backups include it and the separated casebook. The importer accepts older backups by filtering their mixed record. Saves stay local to the browser; export/restore supports moving devices.
+`hollowing-investigation-v1` stores the chapel/vault evidence and deductions. `hollowing-last-night-v1` stores personal accounts, mechanism states, witness memory, returning-room events and reconstruction. All fields are additive; old endings are unchanged. Main and school backups include it and the separated casebook. The importer accepts older backups by filtering their mixed record. Saves stay local to the browser; export/restore supports moving devices.
 
-## Unfinished
+## Remaining limitations
 
-Nursery, carriage house, gatehouse, outdoor rose garden, vestry, sealed staircase, tower, orchard, annex and final-dossier chambers still use original illustrated scenery or their original interface. They are playable and labeled as pending photographic conversion in the map. The original casebook and expansions still use panels/checklists; they are not yet fully integrated into the scene-first controls. Shared photographs do not count as a complete interaction rewrite of those assignments. No free walking, animated characters or full ambient soundtrack is claimed; optional sound is synthesized bell tones.
+The main travel route is photographic and scene-first throughout. Earlier casebook and expansion assignments retain their panel/checklist controls and separate chapter progress, now with shared photographic scenery. They remain accessible from Investigation chapters for continuity and save preservation. Converting those older interfaces into the main engine is still unfinished. No free walking, animated characters, voice acting or full ambient soundtrack is claimed. Optional sound uses synthesized bell tones. The three later historical fates intentionally remain unverified, as in the established Gerouge ending.
 
 ## Verification
 
 Browser suites cover the main study puzzle and both decisions, historical school chapter and both outcomes, setting, backup/restore and storage failures, removal and migration of mixed cases, canonical routes and direct doors, the new physical investigation, all 32 estate clues/eight deductions/three interviews/hearing, all 16 final clues/timeline/cipher/both endings, eight chapel leads, persistence and desktop/mobile controls.
+
+`tests/last-night.cjs` covers the new complete puzzle chain, wrong steps, witness memory, room changes, reconstruction, old ending, backup and mobile controls. `tests/photographic-estate.cjs` checks all 21 distinct local plates, target sizes, spatial travel plan, shared chapter scenery and mobile panning.
