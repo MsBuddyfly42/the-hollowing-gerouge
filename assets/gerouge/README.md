@@ -7,3 +7,7 @@ Three locally packaged WebP photographic environment plates, generated specifica
 - `study.webp` — writing desk, lower book cabinet, eight-girl portrait, papers, lamp, pigment.
 
 Total packaged scenery is approximately 1.27 MB. No remote image host is required by the new photographic route.
+
+## School-wing continuation
+
+Four additional generated photographic plates are packaged locally: `classroom.webp`, `dorm.webp`, `greenhouse.webp`, and `workshop.webp`. Their combined size is approximately 1.47 MB. Each was inspected to place hotspots on the visible map, board, teacher desk, model chapel, bedside drawer, potting bench, glass display case, workshop bench, cupboard, and doorways. The daily-life office reuses the established study scene because it is the same room in its separate chapter.

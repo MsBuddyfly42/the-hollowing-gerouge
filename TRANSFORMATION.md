@@ -1,49 +1,56 @@
-# Gerouge photographic transformation — first review phase
+# Gerouge photographic transformation — current state
 
-The existing project is preserved. This release transforms the plantation approach, grand entrance hall, and the detailed Headmistress's Study investigation. It does not claim that the remaining world has been transformed.
+The complete existing project, storyline, chapter routes and browser-save keys are retained. The first release transformed the approach, entrance hall and detailed private-study investigation. This continuation gives the school wing its own photographic environment and deeper hands-on interactions, and applies a darker Gothic visual theme across the game.
 
-## Inventory and scope
+## Visual direction
 
-`location-inventory.json` contains 91 playable scene entries, including overlapping modes that revisit the same physical places. These are entries, not 91 different physical buildings. The complete list is searchable in the in-game Estate map.
+Ink-black and bruised-plum surfaces, muted burgundy accents, aged ivory text, cool desaturated photographs, restrained grain and warm practical lights replace the earlier green-and-gold presentation. Cinzel headings/controls and Crimson Pro narrative text are packaged locally with their SIL Open Font License notices. Body text remains large and readable; focus outlines, 44px-or-larger main targets, touch controls, and reduced-motion-safe visuals are retained. The UI does not flash or rely on animation.
 
-- Original campaign: 42 hidden-evidence rooms, eight estate-investigation rooms, eight chapel-route stops, four final-dossier scenes, and six county activity destinations.
-- Existing expansions: five Unsealed Rooms, five School Day rooms, three Evidence After Dark rooms, and six Cinematic Hall rooms.
-- Detailed and alternate study chapters: two entries, with separate existing saves.
-- Photographic approach and entrance hall: two new route entries.
+Stay Alive (2006) was used as an atmospheric reference at the user's request. The filmmakers' interview describes believable horror and a game world treated with the same care as the film: https://www.darkhorizons.com/william-brent-bell-and-matthew-peterman-for-stay-alive/. Gerouge's existing fiction, mysteries and characters remain its own; no film dialogue, screenshots, characters or plot were imported.
 
-The original campaign already contained the Nevermore County / Nevermore Academy names. Those existing names were retained as requested; no story, character, progress, code, or imagery was imported from the separate Nevermore Chronicles project. Its stylesheet was read only to understand the requested visual reference.
+## Photographic rooms ready to play
 
-## Ready for review
+Seven distinct locally packaged photographic environment plates now support eight playable scene entries:
 
-- Fictional photographic scenes: locally packaged, individually composed approach, hall, and study. Cream plaster, walnut furnishings, green shutters, blue dusk, and warm lamps connect the locations.
-- Hotspots align with furniture in the actual generated images. They retain their coordinates on desktop and mobile. Phones pan the scene horizontally rather than cropping objects away; landscape orientation gives a broader view.
-- Entrance: front-door travel, estate plaque, seven ribbons, collectible storm lantern.
-- Hall: portrait backing, latched console drawer, key and note, flower-table ribbon, bell rope, study door.
-- Study: desk latch, individually searchable drawer contents and false lining, inventory key selection, cabinet lock and false shelf, Mara's diary, Eva's photograph, paper restoration using touch/click or drag/drop, controllable lamp shutter, control/sample pigment comparison, Maeve's evidence-based interview, historical comparison, and both existing release decisions.
-- Estate map, inventory, objectives, field journal, labels, optional synthesized sound, fullscreen when supported, autosave, backup export, and validated backup restore.
-- Every old chapter remains reachable. The earlier detailed-study presentation is retained at `study-reimagined-original.html`; the familiar `study-reimagined.html` address now opens the photographic study using the same save.
+- Plantation approach: estate plaque, seven ribbons, storm lantern, front doors.
+- Entrance hall: portrait backing, latched console drawer, key, school note, ribbon, bell rope and study door.
+- Detailed Headmistress's Study: desk latch/false lining, numbered-key inventory use, false shelf/Mara's diary, Eva's photograph, paper restoration, working lamp, pigment controls/comparison, Maeve interview, evidence comparison and both release decisions.
+- Finishing-school classroom: student map/landmark arrangement, altered attendance board, practical lesson at teacher's desk.
+- North dormitory: latched bedside drawer and warning note, liftable chapel-model roof and concealed passage sketch.
+- Rose conservatory: use tools on the pot in the correct propagation order, inspect Mara's violet in the glass case.
+- Restoration workshop: cupboard latch/material collection, assemble the lantern by selecting or dragging the correct material to each work area, operate the completed lantern.
+- The school-day office is a separate chapter entry in the same established study room. It uses the study plate for its mail tray, parcel/key and lesson ledger.
+
+The school-day storyline retains Eliza, Maeve, lesson choices, the altered roll, the strange parcel, the eighth-bell prerequisites, relationship changes and both original outcomes. Existing completed route flags remain complete; older saves are not made to replay earned work. Paper, garden and drawer close-ups are reconstructed interactive views, not additional photographic renders.
+
+## Complete location inventory
+
+`location-inventory.json` still contains 91 playable scene entries, including overlapping chapter visits to the same places. It is searchable from the in-game Estate map. Five School Day entries are now marked as photographic rather than pending.
+
+The original campaign retains its 42 hidden-evidence rooms, eight estate rooms, eight chapel stops, four final-dossier scenes and six county activity destinations. The original county campaign body and its story data were not changed in this continuation. Other expansions remain accessible. Fonts and colors extend across their existing presentations.
+
+`school-wing.js` holds the existing daily-life chapter logic plus the updated scene interface. `scripts/inventory.cjs` reads its room definitions when regenerating the inventory. `plantation-day.html?room=classroom`, `?room=study`, `?room=dorm`, `?room=greenhouse` and `?room=workshop` remain valid.
 
 ## Save preservation
 
-Publication stays on `https://the-hollowing-gerouge.onrender.com`. Browser saves depend on that origin. Existing keys remain: `nevermore-v1`, `hollowing-cinematic-hall-v1`, `hollowing-estate-expansion-v1`, `hollowing-daily-life-v1`, `hollowing-evidence-after-dark-v1`, `hollowing-study-interactive-v1`, and `hollowing-photostudy-v1`. New scene navigation and equipment state use `hollowing-immersive-v1`.
+Deployment stays on https://the-hollowing-gerouge.onrender.com, preserving the browser-save origin. The school wing still uses `hollowing-daily-life-v1`; its original lesson, craft, garden, trust, journal, flags and ending fields remain. New latch and lamp flags are additive. Unknown saved fields are retained.
 
-The historical `nevermore-v1` key belongs to this existing Gerouge code. It is not read from another website. Chapter saves are not merged into another game's story. Existing unknown fields are retained when the transformed study saves. Export backs up all known Gerouge chapter keys. Import asks before replacing the included saves and rejects unsupported files.
+Other keys are unchanged: `nevermore-v1`, `hollowing-cinematic-hall-v1`, `hollowing-estate-expansion-v1`, `hollowing-evidence-after-dark-v1`, `hollowing-study-interactive-v1`, `hollowing-photostudy-v1`, and the navigation key `hollowing-immersive-v1`. The historical `nevermore-v1` name belongs to this pre-existing Gerouge project. It does not access the separate Nevermore Chronicles website.
 
-## Unfinished and next passes
+The school wing can export a backup compatible with the main game's importer, including current in-memory progress if browser storage fails. The main route retains export/restore for all known Gerouge chapter saves.
 
-All locations outside the three photographic scenes still use their original visuals and interactions. Some original modes still depend on remote images or use illustrated scenes. They are preserved, visibly marked as awaiting photographic transformation, and remain playable. No replacement scenery is presented as complete for those rooms.
+## Unfinished
 
-Suggested progression after reviewing this phase:
+The remaining campaign/expansion locations still use their original scene art or remote photographs and original interactions. They remain playable and are marked as pending photographic transformation in the map. Updating the shared palette does not count those scenes as photographically complete.
 
-1. Finishing-school classroom, seven-bed dormitory, nursery, music hall, and registrar's office.
-2. Greenhouse, rose garden, workshop, carriage house, and gatehouse.
-3. Chapel, vestry, sealed stair, underground vault and passage, tower, and final-dossier rooms.
-4. All remaining case and activity locations, with one appropriate scene and individually aligned interactions per location.
-
-The lamp changes scene exposure and keeps its state. Its photographic base plate still depicts a lit lamp. Drawer and paper close-ups are interactive reconstructed views, not additional photographic renders. An existing Evidence After Dark indexing error was also corrected so recovered objects display their story descriptions instead of their vertical coordinates. Character conversations are readable dialogs; there are no animated characters or first-person walking controls in this phase. The optional sound control plays synthesized bell tones, not a full ambient soundscape.
+Next passes: registrar/music rooms and nursery; carriage house/gatehouse; chapel/vestry/stair/vault/tower; the remaining case-file and activity locations. Each needs appropriate local scenery, aligned objects and retained investigation logic. There are no first-person walking controls, animated characters, or full ambient soundtrack; travel uses the map and conversations use readable dialogs. Optional sound currently consists of synthesized bell tones.
 
 ## Verification
 
-`tests/gameplay.cjs` uses Playwright and Chromium to exercise the full study chain, reject incorrect paper order and incomplete pigment preparation, select both endings, reload saves, export a backup, preserve existing study fields and the original campaign save, recover from malformed JSON, open original routes, search the 91-entry map, and use touch navigation and drawers on a 390px phone viewport. A second compatibility check exercises backup restore, invalid-file rejection, all 91 route entries, and the export fallback when browser storage is unavailable. No browser JavaScript errors were observed. All local image plates loaded. Scene widths and tap targets were checked on mobile; the mobile drawer overlap found during testing was corrected.
+- `tests/gameplay.cjs`: complete detailed-study investigation, wrong paper order, pigment prerequisites, both endings, reload persistence, save export, existing-save preservation, 91 map entries, original routes and touch controls.
+- `tests/compatibility.cjs`: backup import, invalid import rejection, all 91 route smoke checks, unavailable-storage reporting and export fallback.
+- `tests/school-wing.cjs`: complete school-day chain, both outcomes, wrong route/material/garden actions rejected, drawer and cupboard latches, model roof, working crafted lantern, school backup, old school-save fields, isolated detailed-study save, local fonts/images, desktop and 390px touch navigation.
 
-Run in a local HTTP preview with `node tests/gameplay.cjs` when Playwright and Chromium are available. The test expects `http://127.0.0.1:4173`. Run `node scripts/inventory.cjs` to regenerate the scene inventory.
+All three browser suites passed in Chromium with no JavaScript exceptions. The new scene composition, Gothic typography, desktop control placement and mobile panning were visually inspected. Main and school route assets are local. Older routes are not claimed to be independent of remote assets.
+
+Tests require Playwright and Chromium and an HTTP preview at http://127.0.0.1:4173. The test harness uses `/usr/bin/chromium`; adjust that executable path when running on another machine.
