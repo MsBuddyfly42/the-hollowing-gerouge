@@ -592,7 +592,7 @@
       "name": "Finishing-School Classroom",
       "url": "plantation-day.html?room=classroom",
       "detail": "A morning reading lesson is underway. The girls are making illustrated maps of their homes.",
-      "status": "Original playable route · photographic upgrade pending"
+      "status": "Photographic scene and aligned interactions · school-wing upgrade"
     },
     {
       "group": "School Day",
@@ -600,7 +600,7 @@
       "name": "Headmistress’s Office",
       "url": "plantation-day.html?room=study",
       "detail": "A warm office smells of polished wood and ink. The county courier is expected.",
-      "status": "Original playable route · photographic upgrade pending"
+      "status": "Photographic scene and aligned interactions · school-wing upgrade"
     },
     {
       "group": "School Day",
@@ -608,7 +608,7 @@
       "name": "Restoration Workshop",
       "url": "plantation-day.html?room=workshop",
       "detail": "The children are preparing paper lanterns for the autumn evening festival.",
-      "status": "Original playable route · photographic upgrade pending"
+      "status": "Photographic scene and aligned interactions · school-wing upgrade"
     },
     {
       "group": "School Day",
@@ -616,7 +616,7 @@
       "name": "Rose Conservatory",
       "url": "plantation-day.html?room=greenhouse",
       "detail": "The greenhouse offers a quiet place to tend memorial roses and test soil moisture.",
-      "status": "Original playable route · photographic upgrade pending"
+      "status": "Photographic scene and aligned interactions · school-wing upgrade"
     },
     {
       "group": "School Day",
@@ -624,7 +624,7 @@
       "name": "North Dormitory",
       "url": "plantation-day.html?room=dorm",
       "detail": "The beds are neatly made. A handmade model of the chapel stands by the window.",
-      "status": "Original playable route · photographic upgrade pending"
+      "status": "Photographic scene and aligned interactions · school-wing upgrade"
     },
     {
       "group": "Evidence After Dark",
