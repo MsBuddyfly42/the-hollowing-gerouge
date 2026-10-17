@@ -1,0 +1,734 @@
+{
+  "version": 1,
+  "scope": "All existing playable scene entries; overlapping chapters retained as separate entries to preserve their progress.",
+  "locations": [
+    {
+      "group": "Original campaign · Nevermore Academy",
+      "id": "academy-1",
+      "name": "Dormitory No. 7",
+      "url": "original-case-archive.html?screen=search-room&room=academy-1",
+      "detail": "brass bed tag, violet ribbon, student diary, wardrobe key, stitched nameplate, class photograph",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Nevermore Academy",
+      "id": "academy-2",
+      "name": "Registrar’s Office",
+      "url": "original-case-archive.html?screen=search-room&room=academy-2",
+      "detail": "ink blotter, withdrawal slip, wax seal, missing ledger page, letter opener, enrollment stamp",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Nevermore Academy",
+      "id": "academy-3",
+      "name": "North Wing Classroom",
+      "url": "original-case-archive.html?screen=search-room&room=academy-3",
+      "detail": "chalk fragment, math workbook, bell pull, seating chart, cracked slate, hidden initials",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Nevermore Academy",
+      "id": "academy-4",
+      "name": "School Greenhouse",
+      "url": "original-case-archive.html?screen=search-room&room=academy-4",
+      "detail": "seed catalog, pruning shears, pressed rose, glass label, copper watering can, buried tin",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Nevermore Academy",
+      "id": "academy-5",
+      "name": "Music Hall",
+      "url": "original-case-archive.html?screen=search-room&room=academy-5",
+      "detail": "metronome, sheet music, piano key, choir list, silver tuning fork, locked music box",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Nevermore Academy",
+      "id": "academy-6",
+      "name": "Headmistress’s Study",
+      "url": "original-case-archive.html?screen=search-room&room=academy-6",
+      "detail": "portrait frame, desk calendar, carbon copy, locked drawer, rail ticket, false-bottom box",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Grimmwood Files",
+      "id": "grimm-1",
+      "name": "Mill Keeper’s Cottage",
+      "url": "original-case-archive.html?screen=search-room&room=grimm-1",
+      "detail": "red ribbon, muddy boot, river map, torn apron, bread tin, warning letter",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Grimmwood Files",
+      "id": "grimm-2",
+      "name": "Moonlit Footbridge",
+      "url": "original-case-archive.html?screen=search-room&room=grimm-2",
+      "detail": "rope knot, iron spike, scratched plank, button, lantern wick, footprint cast",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Grimmwood Files",
+      "id": "grimm-3",
+      "name": "Woodsman’s Shed",
+      "url": "original-case-archive.html?screen=search-room&room=grimm-3",
+      "detail": "hatchet sheath, timber receipt, boot scraper, chalk arrow, drying glove, hidden trapdoor",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Grimmwood Files",
+      "id": "grimm-4",
+      "name": "Forest Chapel",
+      "url": "original-case-archive.html?screen=search-room&room=grimm-4",
+      "detail": "candle stub, prayer card, pressed fern, silver charm, riddle plaque, broken locket",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Grimmwood Files",
+      "id": "grimm-5",
+      "name": "Old Storyteller’s House",
+      "url": "original-case-archive.html?screen=search-room&room=grimm-5",
+      "detail": "storybook page, spectacles, inkwell, sewing needle, sealed envelope, family sketch",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Grimmwood Files",
+      "id": "grimm-6",
+      "name": "Abandoned Orchard",
+      "url": "original-case-archive.html?screen=search-room&room=grimm-6",
+      "detail": "apple crate, wagon hinge, children’s shoe, soil sample, carriage token, blue scarf",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Olympus After Dark",
+      "id": "olympus-1",
+      "name": "Artifact Vault",
+      "url": "original-case-archive.html?screen=search-room&room=olympus-1",
+      "detail": "provenance card, clay fragment, shipping invoice, seven-door sketch, museum stamp, broken compass",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Olympus After Dark",
+      "id": "olympus-2",
+      "name": "Labyrinth Exhibit",
+      "url": "original-case-archive.html?screen=search-room&room=olympus-2",
+      "detail": "thread spool, bronze key, owl token, labyrinth tile, torch bracket, folded note",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Olympus After Dark",
+      "id": "olympus-3",
+      "name": "Excavation Annex",
+      "url": "original-case-archive.html?screen=search-room&room=olympus-3",
+      "detail": "crate seal, inventory slip, measuring tape, paint sample, false label, school badge",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Olympus After Dark",
+      "id": "olympus-4",
+      "name": "Hall of Shadows",
+      "url": "original-case-archive.html?screen=search-room&room=olympus-4",
+      "detail": "marble chip, laurel emblem, mirror shard, restoration photo, secret hinge, floor tracing",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Olympus After Dark",
+      "id": "olympus-5",
+      "name": "Professor’s Archive",
+      "url": "original-case-archive.html?screen=search-room&room=olympus-5",
+      "detail": "typed letter, auction catalog, wax impression, family tree, postcard, ledger stamp",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Olympus After Dark",
+      "id": "olympus-6",
+      "name": "Underground Grotto",
+      "url": "original-case-archive.html?screen=search-room&room=olympus-6",
+      "detail": "chalk marker, oil lamp, tile arrow, iron ring, water gauge, sealed cylinder",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Blackthorn Asylum",
+      "id": "asylum-1",
+      "name": "Ward Thirteen",
+      "url": "original-case-archive.html?screen=search-room&room=asylum-1",
+      "detail": "ward bracelet, transfer form, threadbare doll, bedside note, key card, stitched initials",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Blackthorn Asylum",
+      "id": "asylum-2",
+      "name": "Records Basement",
+      "url": "original-case-archive.html?screen=search-room&room=asylum-2",
+      "detail": "box label, carbon file, dust imprint, shelf key, identity card, floor plan",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Blackthorn Asylum",
+      "id": "asylum-3",
+      "name": "Nurses’ Station",
+      "url": "original-case-archive.html?screen=search-room&room=asylum-3",
+      "detail": "shift roster, medicine log, fountain pen, sealed memo, name correction, calling bell",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Blackthorn Asylum",
+      "id": "asylum-4",
+      "name": "Laundry Passage",
+      "url": "original-case-archive.html?screen=search-room&room=asylum-4",
+      "detail": "linen tag, service map, door wedge, loose brick, blue thread, bent latch",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Blackthorn Asylum",
+      "id": "asylum-5",
+      "name": "Archive Listening Room",
+      "url": "original-case-archive.html?screen=search-room&room=asylum-5",
+      "detail": "tape spool, recorder switch, transcript, catalog number, splicing strip, witness date",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Blackthorn Asylum",
+      "id": "asylum-6",
+      "name": "Former Superintendent’s Office",
+      "url": "original-case-archive.html?screen=search-room&room=asylum-6",
+      "detail": "appointment book, bank receipt, wax seal, photograph, desk key, unsigned order",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Last Midnight",
+      "id": "studio-1",
+      "name": "Editing Suite",
+      "url": "original-case-archive.html?screen=search-room&room=studio-1",
+      "detail": "film splice, reel six label, cutting notes, gloves, continuity sheet, projector bulb",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Last Midnight",
+      "id": "studio-2",
+      "name": "Prop Workshop",
+      "url": "original-case-archive.html?screen=search-room&room=studio-2",
+      "detail": "latex mask, mold sketch, prop key, paint brush, call sheet, hidden compartment",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Last Midnight",
+      "id": "studio-3",
+      "name": "Projection Booth",
+      "url": "original-case-archive.html?screen=search-room&room=studio-3",
+      "detail": "reel canister, frame strip, lamp housing, date card, projection ticket, audio cue",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Last Midnight",
+      "id": "studio-4",
+      "name": "Costume Archive",
+      "url": "original-case-archive.html?screen=search-room&room=studio-4",
+      "detail": "embroidered cuff, tailor receipt, costume tag, hat pin, fabric sample, wardrobe photograph",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Last Midnight",
+      "id": "studio-5",
+      "name": "Soundstage Chapel",
+      "url": "original-case-archive.html?screen=search-room&room=studio-5",
+      "detail": "set blueprint, false stone, sound marker, trapdoor handle, lighting cue, director note",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Last Midnight",
+      "id": "studio-6",
+      "name": "Director’s Office",
+      "url": "original-case-archive.html?screen=search-room&room=studio-6",
+      "detail": "donation letter, contract, fax receipt, sealed check, premiere list, telephone memo",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Cryptic Library",
+      "id": "library-1",
+      "name": "Restricted Stacks",
+      "url": "original-case-archive.html?screen=search-room&room=library-1",
+      "detail": "shelf marker, rose bookmark, catalog slip, false book, library key, margin note",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Cryptic Library",
+      "id": "library-2",
+      "name": "Restoration Desk",
+      "url": "original-case-archive.html?screen=search-room&room=library-2",
+      "detail": "bone folder, linen thread, loose signature, acid-free sleeve, hidden page, pressing board",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Cryptic Library",
+      "id": "library-3",
+      "name": "Map Collection",
+      "url": "original-case-archive.html?screen=search-room&room=library-3",
+      "detail": "overlay film, compass rose, estate map, pencil tracing, map pin, grid key",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Cryptic Library",
+      "id": "library-4",
+      "name": "Children’s Reading Room",
+      "url": "original-case-archive.html?screen=search-room&room=library-4",
+      "detail": "storybook, borrower card, paper doll, stamped date, tiny key, handwritten dedication",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Cryptic Library",
+      "id": "library-5",
+      "name": "Clockwork Archive",
+      "url": "original-case-archive.html?screen=search-room&room=library-5",
+      "detail": "clock spring, brass gear, maintenance log, bell diagram, small screwdriver, hidden drawer",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · The Cryptic Library",
+      "id": "library-6",
+      "name": "Private Reading Room",
+      "url": "original-case-archive.html?screen=search-room&room=library-6",
+      "detail": "envelope, family crest, ink ribbon, notary stamp, train timetable, portrait miniature",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Dead Signal",
+      "id": "signal-1",
+      "name": "Server Room",
+      "url": "original-case-archive.html?screen=search-room&room=signal-1",
+      "detail": "backup tape, server tag, access badge, network map, USB seal, log printout",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Dead Signal",
+      "id": "signal-2",
+      "name": "Security Office",
+      "url": "original-case-archive.html?screen=search-room&room=signal-2",
+      "detail": "camera card, entry log, clock battery, guard note, key fob, console sticker",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Dead Signal",
+      "id": "signal-3",
+      "name": "Coding Lab",
+      "url": "original-case-archive.html?screen=search-room&room=signal-3",
+      "detail": "error printout, code notebook, checksum slip, terminal token, cable label, patch note",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Dead Signal",
+      "id": "signal-4",
+      "name": "Generator Bay",
+      "url": "original-case-archive.html?screen=search-room&room=signal-4",
+      "detail": "breaker label, maintenance badge, wire diagram, fuse, work order, relay key",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Dead Signal",
+      "id": "signal-5",
+      "name": "Digital Archive",
+      "url": "original-case-archive.html?screen=search-room&room=signal-5",
+      "detail": "scan comparison, revision history, checksum, metadata label, backup drive, source receipt",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original campaign · Dead Signal",
+      "id": "signal-6",
+      "name": "Observation Tower",
+      "url": "original-case-archive.html?screen=search-room&room=signal-6",
+      "detail": "tripod plate, remote trigger, weather note, lens cover, watch schedule, encrypted note",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original estate investigation",
+      "id": "foyer",
+      "name": "Grand Entrance Hall",
+      "url": "original-case-archive.html?screen=estate&room=foyer",
+      "detail": "School badge, Estate key, Carpet impression, Servants’ bell",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original estate investigation",
+      "id": "school",
+      "name": "The Finishing-School Classroom",
+      "url": "original-case-archive.html?screen=estate&room=school",
+      "detail": "Attendance slip, Violet pencil, Chalkboard date, Desk carving",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original estate investigation",
+      "id": "dormitory",
+      "name": "Seven-Bed Dormitory",
+      "url": "original-case-archive.html?screen=estate&room=dormitory",
+      "detail": "Bed roster, Pressed flower, Loose floorboard, Travel ribbon",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original estate investigation",
+      "id": "nursery",
+      "name": "Abandoned Nursery",
+      "url": "original-case-archive.html?screen=estate&room=nursery",
+      "detail": "Blanket label, Portrait outline, Caregiver receipt, Toy rabbit",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original estate investigation",
+      "id": "greenhouse",
+      "name": "Walled Rose Greenhouse",
+      "url": "original-case-archive.html?screen=estate&room=greenhouse",
+      "detail": "Fresh watering can, Rose cutting, Gardener notebook, Glass shard",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original estate investigation",
+      "id": "carriage",
+      "name": "Carriage House",
+      "url": "original-case-archive.html?screen=estate&room=carriage",
+      "detail": "Route map, New padlock, Harness buckle, Tire tracks",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original estate investigation",
+      "id": "archive",
+      "name": "Underground Evidence Vault",
+      "url": "original-case-archive.html?screen=estate&room=archive",
+      "detail": "Transfer ledger, Carbon duplicate, Archive seal, Empty document sleeve",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Original estate investigation",
+      "id": "tower",
+      "name": "The Sealed Tower Chamber",
+      "url": "original-case-archive.html?screen=estate&room=tower",
+      "detail": "Fresh footprints, Cracked mirror, Signed confession, Iron window latch",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Chapel investigation",
+      "id": "gate",
+      "name": "The Estate Gatehouse",
+      "url": "original-case-archive.html?screen=chapel&room=gate",
+      "detail": "A Letter With Two Seals",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Chapel investigation",
+      "id": "rose",
+      "name": "The Overgrown Rose Garden",
+      "url": "original-case-archive.html?screen=chapel&room=rose",
+      "detail": "The Flowers at the Wall",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Chapel investigation",
+      "id": "vestry",
+      "name": "The Chapel Vestry",
+      "url": "original-case-archive.html?screen=chapel&room=vestry",
+      "detail": "The Donation Ledger",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Chapel investigation",
+      "id": "stair",
+      "name": "The Sealed Staircase",
+      "url": "original-case-archive.html?screen=chapel&room=stair",
+      "detail": "A Route Through the Dark",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Chapel investigation",
+      "id": "vault",
+      "name": "The Underground Records Vault",
+      "url": "original-case-archive.html?screen=chapel&room=vault",
+      "detail": "The Second Register",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Chapel investigation",
+      "id": "nursery",
+      "name": "The Abandoned Nursery",
+      "url": "original-case-archive.html?screen=chapel&room=nursery",
+      "detail": "The Girl Who Was Never Enrolled",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Chapel investigation",
+      "id": "tower",
+      "name": "The Countess’s Sealed Tower",
+      "url": "original-case-archive.html?screen=chapel&room=tower",
+      "detail": "The Impossible Footprints",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Chapel investigation",
+      "id": "archive",
+      "name": "The Heritage Trust Archive",
+      "url": "original-case-archive.html?screen=chapel&room=archive",
+      "detail": "The Living Conspirator",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Final dossier",
+      "id": "0",
+      "name": "The Registrar’s Locked Drawer",
+      "url": "original-case-archive.html?screen=finale&room=0",
+      "detail": "Wax impression, Transfer stub, Handwriting card, Missing page edge",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Final dossier",
+      "id": "1",
+      "name": "The Flooded Passage",
+      "url": "original-case-archive.html?screen=finale&room=1",
+      "detail": "Ribbon knot, Lantern wick, Boot buckle, Rescue token",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Final dossier",
+      "id": "2",
+      "name": "The Tower Listening Room",
+      "url": "original-case-archive.html?screen=finale&room=2",
+      "detail": "Bell lever, Glass negative, Roll-call scrap, Mirror backing",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Final dossier",
+      "id": "3",
+      "name": "Heritage Trust Archives",
+      "url": "original-case-archive.html?screen=finale&room=3",
+      "detail": "Revision log, Donation invoice, Camera receipt, Original map",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "County activities",
+      "id": "garden",
+      "name": "Moonshade Gardens",
+      "url": "original-case-archive.html?screen=venue&room=garden",
+      "detail": "Plant, tend, harvest, and investigate strange botanical clues.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "County activities",
+      "id": "bear",
+      "name": "Blackpine Bear Sanctuary",
+      "url": "original-case-archive.html?screen=venue&room=bear",
+      "detail": "Care for rescued bears through observation, feeding plans, and habitat enrichment.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "County activities",
+      "id": "park",
+      "name": "Merryweather Park",
+      "url": "original-case-archive.html?screen=venue&room=park",
+      "detail": "Explore the park, play games, and investigate its midnight Ferris wheel.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "County activities",
+      "id": "workshop",
+      "name": "Witchhazel Workshop",
+      "url": "original-case-archive.html?screen=venue&room=workshop",
+      "detail": "Make props, book crafts, garden markers, and investigative tools.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "County activities",
+      "id": "town",
+      "name": "Hollowmere Town Square",
+      "url": "original-case-archive.html?screen=venue&room=town",
+      "detail": "Meet residents and hear new rumors at the market.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "County activities",
+      "id": "gerouge",
+      "name": "Gerouge Plantation",
+      "url": "original-case-archive.html?screen=venue&room=gerouge",
+      "detail": "Investigate the estate gates, the lost finishing-school register, the sealed tower and the original tragedy.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Unsealed Rooms",
+      "id": "hall",
+      "name": "Grand Entrance Hall",
+      "url": "estate-exploration.html?room=hall",
+      "detail": "Rain taps the tall windows. A school bell rings somewhere behind the walls.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Unsealed Rooms",
+      "id": "dorm",
+      "name": "Seven-Bed Dormitory",
+      "url": "estate-exploration.html?room=dorm",
+      "detail": "Seven beds remain prepared. An eighth pair of shoes has been placed beneath the window.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Unsealed Rooms",
+      "id": "archive",
+      "name": "Heritage Records Vault",
+      "url": "estate-exploration.html?room=archive",
+      "detail": "The archive smells of damp leather. An index drawer is jammed shut.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Unsealed Rooms",
+      "id": "garden",
+      "name": "Rose Gardens and Greenhouse",
+      "url": "estate-exploration.html?room=garden",
+      "detail": "The roses are overgrown, except for seven freshly tended bushes.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Unsealed Rooms",
+      "id": "chapel",
+      "name": "The Sealed Chapel",
+      "url": "estate-exploration.html?room=chapel",
+      "detail": "Every footfall echoes. The door beyond the altar has no visible handle.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "School Day",
+      "id": "classroom",
+      "name": "Finishing-School Classroom",
+      "url": "plantation-day.html?room=classroom",
+      "detail": "A morning reading lesson is underway. The girls are making illustrated maps of their homes.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "School Day",
+      "id": "study",
+      "name": "Headmistress’s Office",
+      "url": "plantation-day.html?room=study",
+      "detail": "A warm office smells of polished wood and ink. The county courier is expected.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "School Day",
+      "id": "workshop",
+      "name": "Restoration Workshop",
+      "url": "plantation-day.html?room=workshop",
+      "detail": "The children are preparing paper lanterns for the autumn evening festival.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "School Day",
+      "id": "greenhouse",
+      "name": "Rose Conservatory",
+      "url": "plantation-day.html?room=greenhouse",
+      "detail": "The greenhouse offers a quiet place to tend memorial roses and test soil moisture.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "School Day",
+      "id": "dorm",
+      "name": "North Dormitory",
+      "url": "plantation-day.html?room=dorm",
+      "detail": "The beds are neatly made. A handmade model of the chapel stands by the window.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Evidence After Dark",
+      "id": "ward",
+      "name": "The Dormitory Annex",
+      "url": "evidence-after-dark.html?room=ward",
+      "detail": "A second row of beds was dismantled after the school closed. Three pieces of furniture still contain concealed evidence.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Evidence After Dark",
+      "id": "study",
+      "name": "Headmistress’s Private Study",
+      "url": "evidence-after-dark.html?room=study",
+      "detail": "Here the official class roll conflicts with the private ledger. The furniture has been shifted recently.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Evidence After Dark",
+      "id": "conservatory",
+      "name": "The Moonlit Conservatory",
+      "url": "evidence-after-dark.html?room=conservatory",
+      "detail": "Someone has been maintaining the estate greenhouse. A concealed garden box contains missing correspondence.",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Cinematic Hall",
+      "id": "hall",
+      "name": "Entrance Hall",
+      "url": "cinematic-hall.html?room=hall",
+      "detail": "Examine portrait, Open drawer, Inspect table, Enter study",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Cinematic Hall",
+      "id": "study",
+      "name": "Headmistress’s Study",
+      "url": "cinematic-hall.html?room=study",
+      "detail": "Open desk, Read register, Examine cabinet, Return to hall",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Cinematic Hall",
+      "id": "school",
+      "name": "Classroom",
+      "url": "cinematic-hall.html?room=school",
+      "detail": "Review attendance, Prepare lesson, Examine student map, Return to hall",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Cinematic Hall",
+      "id": "garden",
+      "name": "Conservatory",
+      "url": "cinematic-hall.html?room=garden",
+      "detail": "Inspect rose label, Prepare planting, Search greenhouse, Return to hall",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Cinematic Hall",
+      "id": "dorm",
+      "name": "Dormitory",
+      "url": "cinematic-hall.html?room=dorm",
+      "detail": "Open bedside drawer, Examine bedding, Read journal, Return to hall",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Cinematic Hall",
+      "id": "chapel",
+      "name": "Sealed Chapel",
+      "url": "cinematic-hall.html?room=chapel",
+      "detail": "Inspect inscription, Examine altar, Search passage, Return to hall",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Detailed study",
+      "id": "study",
+      "name": "Headmistress’s Study — transfer order investigation",
+      "url": "?scene=study",
+      "detail": "Drawer latch, numbered key, book cabinet, Mara’s diary, Eva’s portrait, document restoration, pigment analysis, Maeve interview, evidence board, two endings",
+      "status": "Photographic scene and aligned interactions · phase one"
+    },
+    {
+      "group": "Alternate study chapter",
+      "id": "study-interactive",
+      "name": "Headmistress’s Study — original interactive chapter",
+      "url": "headmistress-study.html",
+      "detail": "Original separate clues, relationships and save retained",
+      "status": "Original playable route · photographic upgrade pending"
+    },
+    {
+      "group": "Photographic route",
+      "id": "approach",
+      "name": "Gerouge Plantation approach",
+      "url": "?scene=approach",
+      "detail": "Estate plaque, violet ribbons, storm lantern and front doors",
+      "status": "Photographic scene and aligned interactions · phase one"
+    },
+    {
+      "group": "Photographic route",
+      "id": "hall",
+      "name": "Grand Entrance Hall",
+      "url": "?scene=hall",
+      "detail": "Portrait, console drawer, school note, ribbon, bell rope and study doorway",
+      "status": "Photographic scene and aligned interactions · phase one"
+    }
+  ]
+}
