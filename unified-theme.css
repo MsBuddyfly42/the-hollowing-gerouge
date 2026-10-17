@@ -1,0 +1,16 @@
+/* THE HOLLOWING unified visual system — all original pages retained */
+:root{--h-bg:#0d0d13;--h-surface:#1b1921;--h-panel:#221d24;--h-gold:#d7b078;--h-text:#f3e7d7;--h-border:#6b5141}
+html{background:var(--h-bg)}
+body{background:radial-gradient(ellipse at 50% 0%,#28202b,var(--h-bg) 72%)!important;color:var(--h-text)!important;font-family:Georgia,'Times New Roman',serif!important}
+button,input,select,textarea{font-family:inherit}
+button{border-radius:7px!important}
+a{color:#f1d29e}
+button:focus-visible,a:focus-visible{outline:3px solid #edce93!important;outline-offset:2px}
+.panel,.box,.card,.case,.dialog,.dialog article,.side{border-color:var(--h-border)!important}
+.hollowing-unified-nav{position:relative;z-index:7;display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:linear-gradient(90deg,#090b10,#25202a);border-bottom:2px solid #a68053;box-shadow:0 8px 35px #0008;padding:12px 18px;color:#f5e4c5}
+.hollowing-unified-nav .h-brand{font-size:clamp(18px,2.5vw,28px);letter-spacing:.07em;margin-right:auto}
+.hollowing-unified-nav .h-brand small{display:block;font:10px system-ui;letter-spacing:.22em;text-transform:uppercase;color:#d5b68b}
+.hollowing-unified-nav a{font:12px system-ui;padding:10px;border-radius:6px;text-decoration:none;border:1px solid #665445;color:#f6ddae;background:#1f1c23}
+.hollowing-unified-nav a:hover,.hollowing-unified-nav a[aria-current="page"]{background:#4e3a32;border-color:#d1ab70}
+.hollowing-build-note{padding:8px 16px;background:#292229;color:#e9cfa9;border-bottom:1px solid #6c594b;font:12px/1.4 system-ui;text-align:center}
+@media(max-width:720px){.hollowing-unified-nav{padding:9px}.hollowing-unified-nav .h-brand{width:100%}.hollowing-unified-nav a{padding:7px;font-size:11px}}
