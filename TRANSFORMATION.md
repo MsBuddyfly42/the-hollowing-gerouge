@@ -54,3 +54,7 @@ Next passes: registrar/music rooms and nursery; carriage house/gatehouse; chapel
 All three browser suites passed in Chromium with no JavaScript exceptions. The new scene composition, Gothic typography, desktop control placement and mobile panning were visually inspected. Main and school route assets are local. Older routes are not claimed to be independent of remote assets.
 
 Tests require Playwright and Chromium and an HTTP preview at http://127.0.0.1:4173. The test harness uses `/usr/bin/chromium`; adjust that executable path when running on another machine.
+
+## Setting continuity update
+
+`SETTING.md` records the mansion-centered St. Bernard Parish setting, fictional adjacency to Kenilworth, Báthory founding lore, antebellum/Italianate visual direction and grounds routes. The playable entrance, architectural hotspots, estate dossier, map and original plantation-history entry now reflect these details. Existing mysteries, progression locks and saves are preserved. Architectural inspection reuses the existing photographic mansion; the remaining grounds scenes still have their previously documented visual upgrade status.
