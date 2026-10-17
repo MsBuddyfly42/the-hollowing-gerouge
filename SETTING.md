@@ -20,7 +20,7 @@ The mansion's visible architecture combines a Southern antebellum character with
 
 The approach identifies St. Bernard Parish, Louisiana. The plaque opens an estate dossier covering the mansion, Bathory founding lore, and the fictional adjacency to Kenilworth. Two architecture/grounds hotspots on the existing mansion plate open the corresponding dossier sections. The map includes the regional setting and a Mansion and grounds tab with existing playable destinations. Players can record this setting in their field journal. The original campaign's plantation-history entry now agrees with this setting.
 
-No save keys, earned objectives, ending choices, mystery findings or inventory item identities were changed. The inventory remains 91 scene entries because the dossier and architectural inspections are new interactions in existing locations, not invented additional rooms.
+The setting dossier adds interactions to existing locations. The current map lists 21 distinct physical locations; chapter revisits are not counted as extra rooms. Gerouge progress is retained through the isolated-save migration described in TRANSFORMATION.md.
 
 ## Historical and design references
 
