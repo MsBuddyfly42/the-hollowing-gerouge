@@ -261,5 +261,14 @@ const searchShell2=shell;shell=function(content){searchShell2(content);const nav
 const originalGoDeep=go;go=function(screen,id){if(screen==='toolkit'){state.screen='toolkit';save();toolkitHub();scrollTo(0,0)}else if(screen==='analysis'){state.screen='analysis';state.active=id;save();analyzeSearchRoom(id);scrollTo(0,0)}else if(screen==='caseboard'){state.screen='caseboard';state.active=id;save();searchCaseBoard(id);scrollTo(0,0)}else originalGoDeep(screen,id)};
 const originalRenderDeep=render;render=function(){if(state.screen==='toolkit')toolkitHub();else if(state.screen==='analysis')analyzeSearchRoom(state.active);else if(state.screen==='caseboard')searchCaseBoard(state.active);else originalRenderDeep()};
 
-render();
+
+// Open existing chapter destinations from the photographic estate map.
+const routeParams=new URLSearchParams(location.search),routeScreen=routeParams.get('screen'),routeRoom=routeParams.get('room');
+if(routeScreen==='search-room'&&searchScenes.some(r=>r.id===routeRoom))searchRoom(routeRoom);
+else if(routeScreen==='estate'&&estateRooms.some(r=>r.id===routeRoom))estateRoom(routeRoom);
+else if(routeScreen==='chapel'&&chapelStops.some(r=>r.id===routeRoom))chapelRoom(routeRoom);
+else if(routeScreen==='finale'&&/^\d+$/.test(routeRoom||'')&&finaleScenes[Number(routeRoom)])finaleRoom(Number(routeRoom));
+else if(routeScreen==='venue'&&venues.some(r=>r[0]===routeRoom))go('venue',routeRoom);
+else render();
 })();
+
