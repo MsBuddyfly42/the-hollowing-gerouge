@@ -273,7 +273,8 @@
       "url": "./?scene=carriage",
       "neighbors": [
         "garden",
-        "orchard"
+        "orchard",
+        "carriage-cellar"
       ],
       "detail": "Carriage house · explore the scene and document its evidence.",
       "group": "Gerouge estate",
@@ -291,6 +292,13 @@
           "label": "Follow the orchard road",
           "x": 74,
           "y": 48,
+          "view": "scene"
+        },
+        {
+          "to": "carriage-cellar",
+          "label": "Descend through the open cellar hatch",
+          "x": 88,
+          "y": 77,
           "view": "scene"
         }
       ],
@@ -767,6 +775,28 @@
       "status": "Locally packaged photographic environment · playable investigation",
       "zone": "GROUNDS · ENCLOSED CEMETERY",
       "parent": "gated-yard"
+    },
+    {
+      "id": "carriage-cellar",
+      "name": "Carriage Service Cellar",
+      "url": "./?scene=carriage-cellar",
+      "neighbors": [
+        "carriage"
+      ],
+      "exits": [
+        {
+          "to": "carriage",
+          "label": "Climb the brick stairs to the carriage house",
+          "x": 82,
+          "y": 38,
+          "view": "scene"
+        }
+      ],
+      "detail": "Below the carriage house · maintenance log, repaired fitting and recent boot tread.",
+      "group": "Gerouge estate",
+      "status": "Locally packaged photographic environment · playable investigation",
+      "zone": "SERVICE YARD · BELOW THE CARRIAGE HOUSE",
+      "parent": "carriage"
     }
   ],
   "routing": "Every threshold is reciprocal. The map, physical exits and return navigation derive from these same connections."

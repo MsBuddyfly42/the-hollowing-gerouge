@@ -1,6 +1,6 @@
 # Gerouge physical layout
 
-`world-layout.json` is the source of truth for all 24 locations, 28 paired thresholds and 56 travel directions. `scripts/inventory.cjs` validates reciprocal neighbors and matching exits, then generates the browser registry and searchable inventory. Scene door markers, exit controls, map connections and older-assignment exit links use this registry.
+`world-layout.json` is the source of truth for all 25 locations, 29 paired thresholds and 58 travel directions. `scripts/inventory.cjs` validates reciprocal neighbors and matching exits, then generates the browser registry and searchable inventory. Scene door markers, exit controls, map connections and older-assignment exit links use this registry.
 
 | Area | Physical connections |
 | --- | --- |
@@ -26,3 +26,5 @@ The vestry is now a small vestment/storage room adjoining the chapel, the tower 
 ## Sacred roses
 
 The gated backyard contains the chapel, the attached mansion tower access and an old Louisiana cemetery close around one shared courtyard. The memorial cenotaph does not invent death dates for the missing pupils. All garden beds are roses. Learn the caretaker vow, water and loosen a living propagation cutting, recover a pupil’s true name and set the rose in the basin. This consumes the carried cutting and establishes persistent sanctuary, opening the cemetery gate and protecting the rear tower threshold. The courtyard changes to a matched planted-rose scene. Cemetery evidence supports the escape investigation without declaring the unresolved girls dead. The whole ritual is additive in the existing last-night save and backup format.
+
+The carriage-house floor hatch descends to its own shallow brick service cellar. Its only doorway is the same stair back upstairs. It is separate from the chapel vault and culvert; the drain is not a tunnel. The open padlock does not impose a new key gate. Three additive findings persist in the existing last-night save.
