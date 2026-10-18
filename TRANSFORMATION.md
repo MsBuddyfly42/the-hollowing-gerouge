@@ -10,13 +10,13 @@ The four documented transfers and three unresolved historical fates remain faith
 
 ## One estate
 
-`world-layout.json` is the source for `location-inventory.json`: 24 physical locations, each listed once. Investigation chapters are separate tasks in those locations. Historical school play is explicitly labeled 1896 reconstruction. Older hall/study URLs redirect to the canonical photographic rooms. Classroom doors lead directly to an adjoining room; the travel map remains a separate control.
+`world-layout.json` is the source for `location-inventory.json`: 25 physical locations, each listed once. Investigation chapters are separate tasks in those locations. Historical school play is explicitly labeled 1896 reconstruction. Older hall/study URLs redirect to the canonical photographic rooms. Classroom doors lead directly to an adjoining room; the travel map remains a separate control.
 
 Shared hall, study, dormitory, classroom, conservatory and vault visits use consistent local scene plates. Original Gerouge evidence assignments remain available without pretending each assignment is another physical room. Hotspots follow the visible furnishings.
 
 ## Photographic scenes
 
-All 24 distinct physical locations in the travel map now have appropriate locally packaged photographic scenery and playable scene hotspots. The twelve new locations are nursery, flooded passage, tower chamber, tower bell/listening room, carriage house, gatehouse, outdoor rose garden, vestry, sealed staircase, Trust archive, orchard and annex. The nursery also has a matched open-chest variant for the returning-room event.
+All 25 distinct physical locations in the travel map now have appropriate locally packaged photographic scenery and playable scene hotspots. The twelve new locations are nursery, flooded passage, tower chamber, tower bell/listening room, carriage house, gatehouse, outdoor rose garden, vestry, sealed staircase, Trust archive, orchard and annex. The nursery also has a matched open-chest variant for the returning-room event.
 
 The original estate/chapel/finale/annex assignments use the same location plates. The registrar drawer is a study assignment rather than a separate room. School-day play stays explicitly labeled as a historical reconstruction. Ink/plum/burgundy/ivory colors and local Cinzel/Crimson Pro fonts remain. All scene images are generated depictions of fictional Gerouge.
 
@@ -42,14 +42,14 @@ The main travel route is photographic and scene-first throughout. Earlier casebo
 
 Browser suites cover the main study puzzle and both decisions, historical school chapter and both outcomes, setting, backup/restore and storage failures, removal and migration of mixed cases, canonical routes and direct doors, the new physical investigation, all 32 estate clues/eight deductions/three interviews/hearing, all 16 final clues/timeline/cipher/both endings, eight chapel leads, persistence and desktop/mobile controls.
 
-`tests/last-night.cjs` covers the new complete puzzle chain, wrong steps, witness memory, room changes, reconstruction, old ending, backup and mobile controls. `tests/photographic-estate.cjs` checks all 24 distinct local plates, target sizes, spatial travel plan, shared chapter scenery and mobile panning.
+`tests/last-night.cjs` covers the new complete puzzle chain, wrong steps, witness memory, room changes, reconstruction, old ending, backup and mobile controls. `tests/photographic-estate.cjs` checks all 25 distinct local plates, target sizes, spatial travel plan, shared chapter scenery and mobile panning.
 
 ## Connected-door correction
 
-All physical navigation now derives from world-layout.json: 24 places, 28 paired thresholds, 56 validated directions. The chapter header identifies floor/area. Every scene has visible door/path controls and explicit edge thresholds outside the current camera view. Chapel exits through the gated rear courtyard; the nursery has no direct greenhouse shortcut; the culvert checks the sluice from either end. Older assignment exits use the same registry and retain their saves. ESTATE-LAYOUT.md documents the physical routes. Three confusingly similar room plates (vestry, tower and Trust archive) were replaced with functionally distinct spaces and realigned objects.
+All physical navigation now derives from world-layout.json: 25 places, 29 paired thresholds, 58 validated directions. The chapter header identifies floor/area. Every scene has visible door/path controls and explicit edge thresholds outside the current camera view. Chapel exits through the gated rear courtyard; the nursery has no direct greenhouse shortcut; the culvert checks the sluice from either end. Older assignment exits use the same registry and retain their saves. ESTATE-LAYOUT.md documents the physical routes. Three confusingly similar room plates (vestry, tower and Trust archive) were replaced with functionally distinct spaces and realigned objects.
 
 ## Rear courtyard and sacred-rose protection
 
 Three added locations—mansion back entrance, gated rear courtyard and old Louisiana cemetery—join the rose-only garden, chapel and tower in a connected rear sanctuary. The central courtyard photograph shows all three landmarks together. Its matched protected variant shows the living rose placed in the basin. The garden and porch views were checked against the courtyard’s chapel architecture. Learn the vow, tend a propagation cutting, name a verified pupil and establish the ward to enter the cemetery and use the rear tower approach. All progress is additive under `hollowing-last-night-v1`; planting consumes the carried cutting. The memorial niche provides a further copy of testimony while preserving the established unresolved fates.
 
-`tests/connected-estate.cjs` exercises all 56 door/path directions and reciprocal returns, including the culvert puzzle from each side. `tests/rose-sanctuary.cjs` covers the ritual, wrong order, verified-name requirement, physical planting, changed scenery, cemetery evidence, save/backup, old ending and mobile exits.
+`tests/connected-estate.cjs` exercises all 58 door/path directions and reciprocal returns, including the culvert puzzle from each side. `tests/rose-sanctuary.cjs` covers the ritual, wrong order, verified-name requirement, physical planting, changed scenery, cemetery evidence, save/backup, old ending and mobile exits.
