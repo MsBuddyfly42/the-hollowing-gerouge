@@ -70,9 +70,10 @@
         {
           "to": "classroom",
           "label": "Follow the school corridor",
-          "x": 57,
-          "y": 44,
-          "view": "scene"
+          "x": 3,
+          "y": 84,
+          "view": "edge",
+          "connection": "School corridor threshold beside the entrance-hall camera"
         },
         {
           "to": "tower",
@@ -84,9 +85,10 @@
         {
           "to": "rear-entry",
           "label": "Follow the rear passage to the back door",
-          "x": 97,
-          "y": 83,
-          "view": "edge"
+          "x": 67,
+          "y": 45,
+          "view": "scene",
+          "connection": "Rear glass doors beneath the hall stair"
         }
       ],
       "zone": "MAIN HOUSE · GROUND FLOOR"
@@ -290,9 +292,10 @@
         {
           "to": "orchard",
           "label": "Follow the orchard road",
-          "x": 74,
-          "y": 48,
-          "view": "scene"
+          "x": 67,
+          "y": 65,
+          "view": "scene",
+          "connection": "Open vehicle bay and orchard track"
         },
         {
           "to": "carriage-cellar",
@@ -334,9 +337,10 @@
         {
           "to": "passage",
           "label": "Open the service-passage door",
-          "x": 60,
-          "y": 34,
-          "view": "scene"
+          "x": 97,
+          "y": 85,
+          "view": "edge",
+          "connection": "Service-passage door beside the camera, not the rear bookshelves"
         }
       ],
       "zone": "CHAPEL · UNDERGROUND VAULT"
@@ -799,5 +803,107 @@
       "parent": "carriage"
     }
   ],
-  "routing": "Every threshold is reciprocal. The map, physical exits and return navigation derive from these same connections."
+  "routing": "Every threshold is reciprocal. The map, physical exits and return navigation derive from these same connections.",
+  "sections": [
+    {
+      "id": "tack-bay",
+      "parent": "carriage",
+      "name": "Harness and Saddle Bay",
+      "image": "carriage-tack",
+      "x": 22,
+      "y": 37,
+      "entryLabel": "Step through the side door into the harness bay",
+      "caption": "Within the carriage house · beyond the left doorway",
+      "message": "The same doorway returns to the vehicle bay. The maintenance card, harness buckle and linen trunk belong to this outbuilding.",
+      "alt": "Small harness-and-saddle bay inside Gerouge carriage house, with an open left door showing the carriage wheel, a maintenance card and buckle on the bench and a linen trunk on the right.",
+      "returnX": 12,
+      "returnY": 44,
+      "hotspots": [
+        [
+          "Read the harness maintenance card",
+          54,
+          49,
+          "tackLog"
+        ],
+        [
+          "Inspect the harness buckle",
+          63,
+          49,
+          "tackBuckle"
+        ],
+        [
+          "Open the carriage-linen trunk",
+          84,
+          74,
+          "tackTrunk"
+        ]
+      ]
+    },
+    {
+      "id": "coat-recess",
+      "parent": "hall",
+      "name": "Under-Stair Coat Recess",
+      "image": "hall-alcove",
+      "x": 80,
+      "y": 46,
+      "entryLabel": "Step into the under-stair coat recess",
+      "caption": "Within the entrance hall · beneath the stair",
+      "message": "A shallow coat recess opens directly back into the entrance hall. The staircase and flower table remain visible through the same opening.",
+      "alt": "Coat-and-umbrella recess under the entrance-hall stair, with one opening back to the same hall.",
+      "returnX": 21,
+      "returnY": 49,
+      "hotspots": [
+        [
+          "Inspect the hall coat and umbrella stand",
+          72,
+          61,
+          "hallCoat"
+        ]
+      ]
+    },
+    {
+      "id": "chalk-store",
+      "parent": "classroom",
+      "name": "Classroom Chalk and Cloak Recess",
+      "image": "classroom-alcove",
+      "x": 91,
+      "y": 27,
+      "entryLabel": "Open the classroom side store",
+      "caption": "Within the classroom · chalk and cloaks",
+      "message": "The side doorway opens into a shallow classroom store. Return through the green-trimmed opening to the same desks.",
+      "alt": "Shallow green-trimmed classroom storage recess with chalk, slates and cloaks and one opening back to the classroom desks.",
+      "returnX": 15,
+      "returnY": 47,
+      "hotspots": [
+        [
+          "Examine the chalk box and route slate",
+          85,
+          62,
+          "classChalk"
+        ]
+      ]
+    },
+    {
+      "id": "linen-recess",
+      "parent": "annex",
+      "name": "Annex Linen Recess",
+      "image": "annex-alcove",
+      "x": 78,
+      "y": 30,
+      "entryLabel": "Open the annex linen-recess door",
+      "caption": "Within the annex · linen storage",
+      "message": "Linen shelves fill a shallow recess off the annex. The iron beds remain visible through its only doorway.",
+      "alt": "Annex linen recess with household shelves and a single left doorway returning to the annex iron beds.",
+      "returnX": 11,
+      "returnY": 48,
+      "hotspots": [
+        [
+          "Read the annex linen inventory tag",
+          90,
+          43,
+          "annexLinen"
+        ]
+      ]
+    }
+  ]
 }

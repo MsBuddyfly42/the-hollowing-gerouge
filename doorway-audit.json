@@ -1,0 +1,516 @@
+{
+  "scope": "All 25 canonical photographic locations inspected. Windows, furniture and narrow drains are not architectural doorways. Local recesses keep the same scene ID and parent; only their section changes.",
+  "sections": [
+    {
+      "id": "tack-bay",
+      "parent": "carriage",
+      "entryLabel": "Step through the side door into the harness bay",
+      "x": 22,
+      "y": 37,
+      "returnX": 12,
+      "returnY": 44
+    },
+    {
+      "id": "coat-recess",
+      "parent": "hall",
+      "entryLabel": "Step into the under-stair coat recess",
+      "x": 80,
+      "y": 46,
+      "returnX": 21,
+      "returnY": 49
+    },
+    {
+      "id": "chalk-store",
+      "parent": "classroom",
+      "entryLabel": "Open the classroom side store",
+      "x": 91,
+      "y": 27,
+      "returnX": 15,
+      "returnY": 47
+    },
+    {
+      "id": "linen-recess",
+      "parent": "annex",
+      "entryLabel": "Open the annex linen-recess door",
+      "x": 78,
+      "y": 30,
+      "returnX": 11,
+      "returnY": 48
+    }
+  ],
+  "thresholds": [
+    {
+      "scene": "approach",
+      "to": "hall",
+      "x": 60,
+      "y": 51,
+      "view": "scene",
+      "description": "Enter the plantation"
+    },
+    {
+      "scene": "approach",
+      "to": "gatehouse",
+      "x": 18,
+      "y": 53,
+      "view": "scene",
+      "description": "Left gatehouse entrance"
+    },
+    {
+      "scene": "approach",
+      "to": "garden",
+      "x": 96,
+      "y": 73,
+      "view": "scene",
+      "description": "Right-hand garden path"
+    },
+    {
+      "scene": "hall",
+      "to": "approach",
+      "x": 50,
+      "y": 94,
+      "view": "edge",
+      "description": "Front doors to plantation approach"
+    },
+    {
+      "scene": "hall",
+      "to": "study",
+      "x": 15,
+      "y": 55,
+      "view": "scene",
+      "description": "Open the study door"
+    },
+    {
+      "scene": "hall",
+      "to": "classroom",
+      "x": 3,
+      "y": 84,
+      "view": "edge",
+      "description": "School corridor threshold beside the entrance-hall camera"
+    },
+    {
+      "scene": "hall",
+      "to": "tower",
+      "x": 29,
+      "y": 27,
+      "view": "scene",
+      "description": "Climb to the sealed tower"
+    },
+    {
+      "scene": "hall",
+      "to": "rear-entry",
+      "x": 67,
+      "y": 45,
+      "view": "scene",
+      "description": "Rear glass doors beneath the hall stair"
+    },
+    {
+      "scene": "study",
+      "to": "hall",
+      "x": 5,
+      "y": 46,
+      "view": "scene",
+      "description": "Return to the entrance hall"
+    },
+    {
+      "scene": "classroom",
+      "to": "hall",
+      "x": 3,
+      "y": 84,
+      "view": "edge",
+      "description": "Return through the school corridor"
+    },
+    {
+      "scene": "classroom",
+      "to": "dormitory",
+      "x": 35,
+      "y": 32,
+      "view": "scene",
+      "description": "School stair and upper landing"
+    },
+    {
+      "scene": "classroom",
+      "to": "workshop",
+      "x": 97,
+      "y": 83,
+      "view": "edge",
+      "description": "Right-hand workshop passage"
+    },
+    {
+      "scene": "dormitory",
+      "to": "classroom",
+      "x": 9,
+      "y": 28,
+      "view": "scene",
+      "description": "School stair down to classroom"
+    },
+    {
+      "scene": "dormitory",
+      "to": "nursery",
+      "x": 97,
+      "y": 84,
+      "view": "edge",
+      "description": "Nursery communicating doorway · right"
+    },
+    {
+      "scene": "dormitory",
+      "to": "annex",
+      "x": 3,
+      "y": 83,
+      "view": "edge",
+      "description": "Left-hand annex doorway"
+    },
+    {
+      "scene": "nursery",
+      "to": "dormitory",
+      "x": 10,
+      "y": 40,
+      "view": "scene",
+      "description": "Return to the dormitory"
+    },
+    {
+      "scene": "greenhouse",
+      "to": "workshop",
+      "x": 3,
+      "y": 84,
+      "view": "edge",
+      "description": "Workshop service doorway · left"
+    },
+    {
+      "scene": "greenhouse",
+      "to": "garden",
+      "x": 45,
+      "y": 47,
+      "view": "scene",
+      "description": "Return to the garden"
+    },
+    {
+      "scene": "workshop",
+      "to": "classroom",
+      "x": 17,
+      "y": 41,
+      "view": "scene",
+      "description": "Return to the classroom"
+    },
+    {
+      "scene": "workshop",
+      "to": "greenhouse",
+      "x": 97,
+      "y": 84,
+      "view": "edge",
+      "description": "Conservatory service doorway · right"
+    },
+    {
+      "scene": "carriage",
+      "to": "garden",
+      "x": 3,
+      "y": 83,
+      "view": "edge",
+      "description": "Return along the garden path"
+    },
+    {
+      "scene": "carriage",
+      "to": "orchard",
+      "x": 67,
+      "y": 65,
+      "view": "scene",
+      "description": "Open vehicle bay and orchard track"
+    },
+    {
+      "scene": "carriage",
+      "to": "carriage-cellar",
+      "x": 88,
+      "y": 77,
+      "view": "scene",
+      "description": "Descend through the open cellar hatch"
+    },
+    {
+      "scene": "vault",
+      "to": "chapel",
+      "x": 19,
+      "y": 38,
+      "view": "scene",
+      "description": "Climb the stairs to the chapel"
+    },
+    {
+      "scene": "vault",
+      "to": "stairs",
+      "x": 3,
+      "y": 83,
+      "view": "edge",
+      "description": "Return through the north door to the sealed staircase"
+    },
+    {
+      "scene": "vault",
+      "to": "passage",
+      "x": 97,
+      "y": 85,
+      "view": "edge",
+      "description": "Service-passage door beside the camera, not the rear bookshelves"
+    },
+    {
+      "scene": "tower",
+      "to": "hall",
+      "x": 12,
+      "y": 52,
+      "view": "scene",
+      "description": "Tower stair doorway to the hall"
+    },
+    {
+      "scene": "tower",
+      "to": "tower-listening",
+      "x": 88,
+      "y": 32,
+      "view": "scene",
+      "description": "Climb the spiral stairs to the bell room"
+    },
+    {
+      "scene": "tower",
+      "to": "gated-yard",
+      "x": 3,
+      "y": 83,
+      "view": "edge",
+      "description": "Descend the rear tower stair to the courtyard"
+    },
+    {
+      "scene": "gatehouse",
+      "to": "approach",
+      "x": 16,
+      "y": 48,
+      "view": "scene",
+      "description": "Return through the estate gate"
+    },
+    {
+      "scene": "gatehouse",
+      "to": "trust-archive",
+      "x": 97,
+      "y": 83,
+      "view": "edge",
+      "description": "Archive workroom doorway · right"
+    },
+    {
+      "scene": "garden",
+      "to": "approach",
+      "x": 3,
+      "y": 83,
+      "view": "edge",
+      "description": "Return along the approach path"
+    },
+    {
+      "scene": "garden",
+      "to": "greenhouse",
+      "x": 95,
+      "y": 50,
+      "view": "scene",
+      "description": "Enter the conservatory"
+    },
+    {
+      "scene": "garden",
+      "to": "carriage",
+      "x": 97,
+      "y": 92,
+      "view": "edge",
+      "description": "Follow the carriage path"
+    },
+    {
+      "scene": "garden",
+      "to": "gated-yard",
+      "x": 45,
+      "y": 50,
+      "view": "scene",
+      "description": "Return through the courtyard garden gate"
+    },
+    {
+      "scene": "chapel",
+      "to": "vestry",
+      "x": 3,
+      "y": 84,
+      "view": "edge",
+      "description": "Vestry doorway · behind you"
+    },
+    {
+      "scene": "chapel",
+      "to": "vault",
+      "x": 93,
+      "y": 56,
+      "view": "scene",
+      "description": "Inspect the service hatch"
+    },
+    {
+      "scene": "chapel",
+      "to": "gated-yard",
+      "x": 9,
+      "y": 40,
+      "view": "scene",
+      "description": "Return to the gated rear courtyard"
+    },
+    {
+      "scene": "vestry",
+      "to": "chapel",
+      "x": 12,
+      "y": 43,
+      "view": "scene",
+      "description": "Return through the chapel doorway"
+    },
+    {
+      "scene": "vestry",
+      "to": "stairs",
+      "x": 90,
+      "y": 42,
+      "view": "scene",
+      "description": "Take the sealed-stair route"
+    },
+    {
+      "scene": "stairs",
+      "to": "vestry",
+      "x": 3,
+      "y": 83,
+      "view": "edge",
+      "description": "Climb back to the vestry"
+    },
+    {
+      "scene": "stairs",
+      "to": "vault",
+      "x": 50,
+      "y": 60,
+      "view": "scene",
+      "description": "Open the north door to the vault"
+    },
+    {
+      "scene": "trust-archive",
+      "to": "gatehouse",
+      "x": 12,
+      "y": 45,
+      "view": "scene",
+      "description": "Return to the gatehouse lobby"
+    },
+    {
+      "scene": "passage",
+      "to": "vault",
+      "x": 3,
+      "y": 83,
+      "view": "edge",
+      "description": "Return to the chapel vault"
+    },
+    {
+      "scene": "passage",
+      "to": "orchard",
+      "x": 42,
+      "y": 43,
+      "view": "scene",
+      "description": "Follow the raised walkway"
+    },
+    {
+      "scene": "tower-listening",
+      "to": "tower",
+      "x": 22,
+      "y": 66,
+      "view": "scene",
+      "description": "Return to the tower chamber"
+    },
+    {
+      "scene": "orchard",
+      "to": "passage",
+      "x": 97,
+      "y": 85,
+      "view": "edge",
+      "description": "Descend through the orchard culvert"
+    },
+    {
+      "scene": "orchard",
+      "to": "carriage",
+      "x": 50,
+      "y": 35,
+      "view": "scene",
+      "description": "Return along the carriage track"
+    },
+    {
+      "scene": "annex",
+      "to": "dormitory",
+      "x": 61,
+      "y": 40,
+      "view": "scene",
+      "description": "Return through the annex doorway"
+    },
+    {
+      "scene": "rear-entry",
+      "to": "hall",
+      "x": 18,
+      "y": 45,
+      "view": "scene",
+      "description": "Enter the mansion through the back door"
+    },
+    {
+      "scene": "rear-entry",
+      "to": "gated-yard",
+      "x": 75,
+      "y": 58,
+      "view": "scene",
+      "description": "Open the backyard iron gate"
+    },
+    {
+      "scene": "gated-yard",
+      "to": "rear-entry",
+      "x": 8,
+      "y": 48,
+      "view": "scene",
+      "description": "Return to the mansion rear porch"
+    },
+    {
+      "scene": "gated-yard",
+      "to": "garden",
+      "x": 81,
+      "y": 83,
+      "view": "scene",
+      "description": "Enter the rose-only garden"
+    },
+    {
+      "scene": "gated-yard",
+      "to": "chapel",
+      "x": 48,
+      "y": 50,
+      "view": "scene",
+      "description": "Enter the courtyard chapel"
+    },
+    {
+      "scene": "gated-yard",
+      "to": "tower",
+      "x": 29,
+      "y": 53,
+      "view": "scene",
+      "description": "Climb the rear tower stair"
+    },
+    {
+      "scene": "gated-yard",
+      "to": "cemetery",
+      "x": 73,
+      "y": 56,
+      "view": "scene",
+      "description": "Open the old cemetery gate"
+    },
+    {
+      "scene": "cemetery",
+      "to": "gated-yard",
+      "x": 12,
+      "y": 48,
+      "view": "scene",
+      "description": "Return through the cemetery gate"
+    },
+    {
+      "scene": "carriage-cellar",
+      "to": "carriage",
+      "x": 82,
+      "y": 38,
+      "view": "scene",
+      "description": "Climb the brick stairs to the carriage house"
+    }
+  ],
+  "furniture": [
+    "Study lower book cabinet: opens in place, no room travel.",
+    "Workshop materials cupboard: opens in place, no room travel.",
+    "Vestry vestment cupboard: furniture, no architectural doorway.",
+    "Dormitory chapel model: miniature roof opens in place.",
+    "Cemetery memorial niche: small panel, no walkable crypt.",
+    "Carriage cellar drain: narrow grille, no tunnel."
+  ],
+  "remaining": []
+}
