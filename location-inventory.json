@@ -71,9 +71,10 @@
         {
           "to": "classroom",
           "label": "Follow the school corridor",
-          "x": 57,
-          "y": 44,
-          "view": "scene"
+          "x": 3,
+          "y": 84,
+          "view": "edge",
+          "connection": "School corridor threshold beside the entrance-hall camera"
         },
         {
           "to": "tower",
@@ -85,9 +86,10 @@
         {
           "to": "rear-entry",
           "label": "Follow the rear passage to the back door",
-          "x": 97,
-          "y": 83,
-          "view": "edge"
+          "x": 67,
+          "y": 45,
+          "view": "scene",
+          "connection": "Rear glass doors beneath the hall stair"
         }
       ],
       "zone": "MAIN HOUSE · GROUND FLOOR"
@@ -291,9 +293,10 @@
         {
           "to": "orchard",
           "label": "Follow the orchard road",
-          "x": 74,
-          "y": 48,
-          "view": "scene"
+          "x": 67,
+          "y": 65,
+          "view": "scene",
+          "connection": "Open vehicle bay and orchard track"
         },
         {
           "to": "carriage-cellar",
@@ -335,9 +338,10 @@
         {
           "to": "passage",
           "label": "Open the service-passage door",
-          "x": 60,
-          "y": 34,
-          "view": "scene"
+          "x": 97,
+          "y": 85,
+          "view": "edge",
+          "connection": "Service-passage door beside the camera, not the rear bookshelves"
         }
       ],
       "zone": "CHAPEL · UNDERGROUND VAULT"
