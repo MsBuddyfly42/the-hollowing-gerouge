@@ -1,0 +1,11 @@
+/* Physical comparison marks: drawn strokes, stitch holes and folds instead of labels alone. */
+window.GerougeTraceArt=function(id){const ink=id==='mara'?'#6c4d75':id==='nora'?'#526144':'#594936';let mark='';
+if(id==='mara')mark='<path d="M25 110q15-80 28-60l-4 60q18-75 32-60l-5 55q20 15 32-10m-8-20q45-40 42 15-9 45-36 15m30-45 35 55m-18-48-10 45"/><path d="M30 135q45-25 90 0t85-5" opacity=".6"/>';
+else if(id==='eliza')mark='<path d="M45 160Q15 100 65 80T105 25q70 35 25 70t50 65"/><path d="m12 145 10-45 15 45m-23-20h22m122-65 10-35 13 35m-21-13h20m14 77 14-43 15 43m-25-17h27"/><path d="M20 173h190" stroke-dasharray="2 5"/>';
+else if(id==='iris')mark=['#80618b','#b09a61','#a66d4e'].map((c,i)=>'<path d="M25 '+(55+i*42)+'q18-20 35 0t35 0t35 0t35 0t35 0" stroke="'+c+'" stroke-width="7"/>'+[25,60,95,130,165,200].map(x=>'<circle cx="'+x+'" cy="'+(55+i*42)+'" r="3" fill="#79674e" stroke="none"/>').join('')).join('');
+else if(id==='clara')mark='<path d="m45 50-5 100m45-110-5 113m45-105-4 100m46-110-4 113" stroke-width="7"/><path d="M25 173h165" stroke-width="2"/>';
+else if(id==='nora')mark='<path d="M70 175Q130 80 158 20" stroke="#7b7044"/>'+[0,1,2,3,4,5].map(i=>'<path d="M'+(80+i*13)+' '+(155-i*23)+'q-45-10-43-28 35-10 43 28m0 0q45 2 48-19-28-15-48 19" fill="#68704a" stroke="#8b865d" stroke-width="1"/>').join('');
+else if(id==='beatrice')mark='<path d="M15 30h150v135H15Z" fill="#c8b48d"/><path d="M55 55h150v135H55Z" fill="#e1d1ac"/><path d="M30 55h65m-65 20h95m-95 20h70M70 80h65m-65 20h95m-95 20h70" stroke-width="2"/><path d="m45 112 25 18m0-18-25 18m40 7 25 18m0-18-25 18" stroke="#73495c"/>';
+else if(id==='sylvie')mark='<path d="M20 55h180v100H20Z" fill="#d8c49e"/><path d="M45 55v100m130-100v100" stroke-dasharray="4 5" stroke-width="2"/><path d="m145 55 55 38-55-4Z" fill="#af9570"/><path d="M65 85h85m-85 20h65m-65 20h85" stroke-width="2"/>';
+else mark='<circle cx="110" cy="100" r="63"/><circle cx="110" cy="100" r="53" stroke-dasharray="5 6"/><path d="M75 90h70m-70 15h55m-55 15h65" stroke-width="2"/><path d="m155 60 25-20m-20 40 25-10"/>';
+return '<svg class="signature-glyph" viewBox="0 0 220 210" aria-hidden="true"><g fill="none" stroke="'+ink+'" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">'+mark+'</g></svg>'};

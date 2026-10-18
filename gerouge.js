@@ -102,6 +102,7 @@ const navigation=window.GerougeNavigation({$,rooms,notice,close,act,travel,rende
 
 const sections=window.GerougeSections({$,esc,rooms,modal,close,record,state:deep.state,view,persist,scene:()=>scene,refresh:()=>render(),act,travel,render});act=sections.act;travel=sections.travel;render=sections.render;
 const physicalActions=performances.connect({act,travel,render,state:deep.state});act=physicalActions.act;travel=physicalActions.travel;render=physicalActions.render;
+const living=window.GerougeLivingEstate({$,esc,rooms,state:deep.state,plot,study,view,performances,inventory:allInventory,persist,record,modal,close,section:sections.active,scene:()=>scene,refresh:()=>render(),act,travel,render});act=living.act;travel=living.travel;render=living.render;
 
 if(['passage','tower','tower-listening'].includes(scene)&&!deep.state.evidence.route)scene='nursery';if(['tower','tower-listening'].includes(scene)&&!deep.state.evidence.passageMarks)scene='passage';
 $('closeDialog').onclick=close;$('dialog').addEventListener('close',()=>{if(lastFocus?.isConnected)lastFocus.focus({preventScroll:true});});$('dialog').addEventListener('click',e=>{if(e.target===$('dialog')){const r=$('dialog').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)close();}});
