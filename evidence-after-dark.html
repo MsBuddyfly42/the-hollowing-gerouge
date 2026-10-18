@@ -29,4 +29,4 @@ function render(){const r=locations[s.room],coords=[[17,22],[74,31],[47,69],[30,
 document.querySelectorAll('[data-door]').forEach(b=>b.onclick=()=>{s.room=b.dataset.door;save();render()});document.querySelectorAll('[data-object]').forEach(b=>b.onclick=()=>inspect(+b.dataset.object));$('interview').onclick=interview;$('history').onclick=timeline;$('finish').onclick=conclude}
 const requestedRoom=new URLSearchParams(location.search).get('room');if(requestedRoom&&locations[requestedRoom])s.room=requestedRoom;render()
 })();
-</script><script src="room-continuity.js" defer></script></body></html>
+</script><script src="room-continuity.js" defer></script><script src="world-layout.js" defer></script><script src="chapter-exits.js" defer></script></body></html>
