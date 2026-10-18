@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scope": "One entry per Gerouge physical location. Investigation chapters and the 1896 reconstruction use the same room identities.",
+  "scope": "One entry per physical Gerouge location. Map routes and physical doorways share world-layout.json.",
   "locations": [
     {
       "id": "approach",
@@ -13,7 +13,31 @@
       ],
       "detail": "Plantation approach · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "hall",
+          "label": "Enter the plantation",
+          "x": 60,
+          "y": 51,
+          "view": "scene"
+        },
+        {
+          "to": "gatehouse",
+          "label": "Left gatehouse entrance",
+          "x": 18,
+          "y": 53,
+          "view": "scene"
+        },
+        {
+          "to": "garden",
+          "label": "Right-hand garden path",
+          "x": 96,
+          "y": 73,
+          "view": "scene"
+        }
+      ],
+      "zone": "GROUNDS · FRONT APPROACH"
     },
     {
       "id": "hall",
@@ -22,11 +46,51 @@
       "neighbors": [
         "approach",
         "study",
-        "classroom"
+        "classroom",
+        "tower",
+        "rear-entry"
       ],
       "detail": "Grand entrance hall · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "approach",
+          "label": "Front doors to plantation approach",
+          "x": 50,
+          "y": 94,
+          "view": "edge"
+        },
+        {
+          "to": "study",
+          "label": "Open the study door",
+          "x": 15,
+          "y": 55,
+          "view": "scene"
+        },
+        {
+          "to": "classroom",
+          "label": "Follow the school corridor",
+          "x": 57,
+          "y": 44,
+          "view": "scene"
+        },
+        {
+          "to": "tower",
+          "label": "Climb to the sealed tower",
+          "x": 29,
+          "y": 27,
+          "view": "scene"
+        },
+        {
+          "to": "rear-entry",
+          "label": "Follow the rear passage to the back door",
+          "x": 97,
+          "y": 83,
+          "view": "edge"
+        }
+      ],
+      "zone": "MAIN HOUSE · GROUND FLOOR"
     },
     {
       "id": "study",
@@ -37,7 +101,17 @@
       ],
       "detail": "Headmistress’s Study · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "hall",
+          "label": "Return to the entrance hall",
+          "x": 5,
+          "y": 46,
+          "view": "scene"
+        }
+      ],
+      "zone": "MAIN HOUSE · GROUND FLOOR"
     },
     {
       "id": "classroom",
@@ -50,7 +124,32 @@
       ],
       "detail": "Finishing-school classroom · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "hall",
+          "label": "Return through the school corridor",
+          "x": 3,
+          "y": 84,
+          "view": "edge"
+        },
+        {
+          "to": "dormitory",
+          "label": "Open the dormitory door",
+          "x": 35,
+          "y": 32,
+          "view": "scene",
+          "connection": "School stair and upper landing"
+        },
+        {
+          "to": "workshop",
+          "label": "Right-hand workshop passage",
+          "x": 97,
+          "y": 83,
+          "view": "edge"
+        }
+      ],
+      "zone": "SCHOOL WING · GROUND FLOOR"
     },
     {
       "id": "dormitory",
@@ -58,35 +157,87 @@
       "url": "./?scene=dormitory",
       "neighbors": [
         "classroom",
-        "nursery"
+        "nursery",
+        "annex"
       ],
       "detail": "North dormitory · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "classroom",
+          "label": "Return to the classroom",
+          "x": 9,
+          "y": 28,
+          "view": "scene",
+          "connection": "School stair down to classroom"
+        },
+        {
+          "to": "nursery",
+          "label": "Nursery communicating doorway · right",
+          "x": 97,
+          "y": 84,
+          "view": "edge"
+        },
+        {
+          "to": "annex",
+          "label": "Left-hand annex doorway",
+          "x": 3,
+          "y": 83,
+          "view": "edge"
+        }
+      ],
+      "zone": "SCHOOL WING · UPPER NORTH FLOOR"
     },
     {
       "id": "nursery",
       "name": "Abandoned nursery",
       "url": "./?scene=nursery",
       "neighbors": [
-        "dormitory",
-        "greenhouse"
+        "dormitory"
       ],
       "detail": "Personal letters, concealed route and chest mechanism.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "dormitory",
+          "label": "Return to the dormitory",
+          "x": 10,
+          "y": 40,
+          "view": "scene"
+        }
+      ],
+      "zone": "SCHOOL WING · UPPER EAST ROOM"
     },
     {
       "id": "greenhouse",
       "name": "Rose conservatory",
       "url": "./?scene=greenhouse",
       "neighbors": [
-        "garden",
-        "workshop"
+        "workshop",
+        "garden"
       ],
       "detail": "Rose conservatory · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "workshop",
+          "label": "Workshop service doorway · left",
+          "x": 3,
+          "y": 84,
+          "view": "edge"
+        },
+        {
+          "to": "garden",
+          "label": "Return to the garden",
+          "x": 45,
+          "y": 47,
+          "view": "scene"
+        }
+      ],
+      "zone": "GROUNDS · WALLED CONSERVATORY"
     },
     {
       "id": "workshop",
@@ -98,7 +249,24 @@
       ],
       "detail": "Present-day maintenance tray; historical lantern crafting remains in Investigation chapters.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "classroom",
+          "label": "Return to the classroom",
+          "x": 17,
+          "y": 41,
+          "view": "scene"
+        },
+        {
+          "to": "greenhouse",
+          "label": "Conservatory service doorway · right",
+          "x": 97,
+          "y": 84,
+          "view": "edge"
+        }
+      ],
+      "zone": "SERVICE WING · GROUND FLOOR"
     },
     {
       "id": "carriage",
@@ -110,7 +278,24 @@
       ],
       "detail": "Carriage house · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "garden",
+          "label": "Return along the garden path",
+          "x": 3,
+          "y": 83,
+          "view": "edge"
+        },
+        {
+          "to": "orchard",
+          "label": "Follow the orchard road",
+          "x": 74,
+          "y": 48,
+          "view": "scene"
+        }
+      ],
+      "zone": "GROUNDS · SERVICE YARD"
     },
     {
       "id": "vault",
@@ -118,11 +303,36 @@
       "url": "./?scene=vault",
       "neighbors": [
         "chapel",
-        "stairs"
+        "stairs",
+        "passage"
       ],
       "detail": "Underground records vault · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "chapel",
+          "label": "Climb the stairs to the chapel",
+          "x": 19,
+          "y": 38,
+          "view": "scene"
+        },
+        {
+          "to": "stairs",
+          "label": "Return through the north door to the sealed staircase",
+          "x": 3,
+          "y": 83,
+          "view": "edge"
+        },
+        {
+          "to": "passage",
+          "label": "Open the service-passage door",
+          "x": 60,
+          "y": 34,
+          "view": "scene"
+        }
+      ],
+      "zone": "CHAPEL · UNDERGROUND VAULT"
     },
     {
       "id": "tower",
@@ -130,11 +340,36 @@
       "url": "./?scene=tower",
       "neighbors": [
         "hall",
-        "tower-listening"
+        "tower-listening",
+        "gated-yard"
       ],
       "detail": "Hester’s statement, mirror tracing and modern footprints.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "hall",
+          "label": "Tower stair doorway to the hall",
+          "x": 12,
+          "y": 52,
+          "view": "scene"
+        },
+        {
+          "to": "tower-listening",
+          "label": "Climb the spiral stairs to the bell room",
+          "x": 88,
+          "y": 32,
+          "view": "scene"
+        },
+        {
+          "to": "gated-yard",
+          "label": "Descend the rear tower stair to the courtyard",
+          "x": 3,
+          "y": 83,
+          "view": "edge"
+        }
+      ],
+      "zone": "MAIN HOUSE · UPPER TOWER"
     },
     {
       "id": "gatehouse",
@@ -142,11 +377,28 @@
       "url": "./?scene=gatehouse",
       "neighbors": [
         "approach",
-        "garden"
+        "trust-archive"
       ],
       "detail": "Estate gatehouse · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "approach",
+          "label": "Return through the estate gate",
+          "x": 16,
+          "y": 48,
+          "view": "scene"
+        },
+        {
+          "to": "trust-archive",
+          "label": "Archive workroom doorway · right",
+          "x": 97,
+          "y": 83,
+          "view": "edge"
+        }
+      ],
+      "zone": "GROUNDS · GATE LODGE"
     },
     {
       "id": "garden",
@@ -155,25 +407,82 @@
       "neighbors": [
         "approach",
         "greenhouse",
-        "chapel",
-        "carriage"
+        "carriage",
+        "gated-yard"
       ],
       "detail": "Overgrown rose garden · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "approach",
+          "label": "Return along the approach path",
+          "x": 3,
+          "y": 83,
+          "view": "edge"
+        },
+        {
+          "to": "greenhouse",
+          "label": "Enter the conservatory",
+          "x": 95,
+          "y": 50,
+          "view": "scene"
+        },
+        {
+          "to": "carriage",
+          "label": "Follow the carriage path",
+          "x": 97,
+          "y": 92,
+          "view": "edge"
+        },
+        {
+          "to": "gated-yard",
+          "label": "Return through the courtyard garden gate",
+          "x": 45,
+          "y": 50,
+          "view": "scene"
+        }
+      ],
+      "zone": "GROUNDS · WALLED ROSE GARDEN",
+      "parent": "gated-yard"
     },
     {
       "id": "chapel",
       "name": "Sealed chapel",
       "url": "./?scene=chapel",
       "neighbors": [
-        "garden",
         "vestry",
-        "vault"
+        "vault",
+        "gated-yard"
       ],
       "detail": "Sealed chapel · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "vestry",
+          "label": "Vestry doorway · behind you",
+          "x": 3,
+          "y": 84,
+          "view": "edge"
+        },
+        {
+          "to": "vault",
+          "label": "Inspect the service hatch",
+          "x": 93,
+          "y": 56,
+          "view": "scene"
+        },
+        {
+          "to": "gated-yard",
+          "label": "Return to the gated rear courtyard",
+          "x": 9,
+          "y": 40,
+          "view": "scene"
+        }
+      ],
+      "zone": "GROUNDS · ESTATE CHAPEL",
+      "parent": "gated-yard"
     },
     {
       "id": "vestry",
@@ -185,7 +494,24 @@
       ],
       "detail": "Chapel vestry · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "chapel",
+          "label": "Return through the chapel doorway",
+          "x": 12,
+          "y": 43,
+          "view": "scene"
+        },
+        {
+          "to": "stairs",
+          "label": "Take the sealed-stair route",
+          "x": 90,
+          "y": 42,
+          "view": "scene"
+        }
+      ],
+      "zone": "CHAPEL · GROUND-FLOOR VESTRY"
     },
     {
       "id": "stairs",
@@ -197,7 +523,24 @@
       ],
       "detail": "Sealed staircase · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "vestry",
+          "label": "Climb back to the vestry",
+          "x": 3,
+          "y": 83,
+          "view": "edge"
+        },
+        {
+          "to": "vault",
+          "label": "Open the north door to the vault",
+          "x": 50,
+          "y": 60,
+          "view": "scene"
+        }
+      ],
+      "zone": "CHAPEL · SERVICE DESCENT"
     },
     {
       "id": "trust-archive",
@@ -208,7 +551,17 @@
       ],
       "detail": "Heritage Trust records · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "gatehouse",
+          "label": "Return to the gatehouse lobby",
+          "x": 12,
+          "y": 45,
+          "view": "scene"
+        }
+      ],
+      "zone": "GATEHOUSE · RECORDS EXTENSION"
     },
     {
       "id": "passage",
@@ -220,7 +573,24 @@
       ],
       "detail": "Raised ledge, initials and an operable sluice linkage.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "vault",
+          "label": "Return to the chapel vault",
+          "x": 3,
+          "y": 83,
+          "view": "edge"
+        },
+        {
+          "to": "orchard",
+          "label": "Follow the raised walkway",
+          "x": 42,
+          "y": 43,
+          "view": "scene"
+        }
+      ],
+      "zone": "UNDERGROUND · CHAPEL TO ORCHARD"
     },
     {
       "id": "tower-listening",
@@ -231,19 +601,46 @@
       ],
       "detail": "Trace the cables, repair the lever and test the warning bell.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "tower",
+          "label": "Return to the tower chamber",
+          "x": 22,
+          "y": 66,
+          "view": "scene"
+        }
+      ],
+      "zone": "MAIN HOUSE · TOWER BELFRY"
     },
     {
       "id": "orchard",
       "name": "Abandoned orchard",
       "url": "./?scene=orchard",
       "neighbors": [
-        "carriage",
-        "passage"
+        "passage",
+        "carriage"
       ],
       "detail": "Abandoned orchard · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "passage",
+          "label": "Descend through the orchard culvert",
+          "x": 97,
+          "y": 85,
+          "view": "edge"
+        },
+        {
+          "to": "carriage",
+          "label": "Return along the carriage track",
+          "x": 50,
+          "y": 35,
+          "view": "scene"
+        }
+      ],
+      "zone": "GROUNDS · EAST ORCHARD"
     },
     {
       "id": "annex",
@@ -254,7 +651,123 @@
       ],
       "detail": "Dormitory annex · explore the scene and document its evidence.",
       "group": "Gerouge estate",
-      "status": "Locally packaged photographic environment · playable investigation"
+      "status": "Locally packaged photographic environment · playable investigation",
+      "exits": [
+        {
+          "to": "dormitory",
+          "label": "Return through the annex doorway",
+          "x": 61,
+          "y": 40,
+          "view": "scene"
+        }
+      ],
+      "zone": "SCHOOL WING · UPPER NORTH ANNEX"
+    },
+    {
+      "id": "rear-entry",
+      "name": "Mansion back entrance",
+      "url": "./?scene=rear-entry",
+      "neighbors": [
+        "hall",
+        "gated-yard"
+      ],
+      "exits": [
+        {
+          "to": "hall",
+          "label": "Enter the mansion through the back door",
+          "x": 18,
+          "y": 45,
+          "view": "scene"
+        },
+        {
+          "to": "gated-yard",
+          "label": "Open the backyard iron gate",
+          "x": 75,
+          "y": 58,
+          "view": "scene"
+        }
+      ],
+      "detail": "Rear sanctuary · rose protection and connected courtyard exploration.",
+      "group": "Gerouge estate",
+      "status": "Locally packaged photographic environment · playable investigation",
+      "zone": "MAIN HOUSE · REAR PORCH",
+      "parent": "hall"
+    },
+    {
+      "id": "gated-yard",
+      "name": "Gated rear courtyard",
+      "url": "./?scene=gated-yard",
+      "neighbors": [
+        "rear-entry",
+        "garden",
+        "chapel",
+        "tower",
+        "cemetery"
+      ],
+      "exits": [
+        {
+          "to": "rear-entry",
+          "label": "Return to the mansion rear porch",
+          "x": 8,
+          "y": 48,
+          "view": "scene"
+        },
+        {
+          "to": "garden",
+          "label": "Enter the rose-only garden",
+          "x": 81,
+          "y": 83,
+          "view": "scene"
+        },
+        {
+          "to": "chapel",
+          "label": "Enter the courtyard chapel",
+          "x": 48,
+          "y": 50,
+          "view": "scene"
+        },
+        {
+          "to": "tower",
+          "label": "Climb the rear tower stair",
+          "x": 29,
+          "y": 53,
+          "view": "scene"
+        },
+        {
+          "to": "cemetery",
+          "label": "Open the old cemetery gate",
+          "x": 73,
+          "y": 56,
+          "view": "scene"
+        }
+      ],
+      "detail": "Rear sanctuary · rose protection and connected courtyard exploration.",
+      "group": "Gerouge estate",
+      "status": "Locally packaged photographic environment · playable investigation",
+      "zone": "GROUNDS · GATED BACKYARD",
+      "parent": "rear-entry"
+    },
+    {
+      "id": "cemetery",
+      "name": "Old Louisiana cemetery",
+      "url": "./?scene=cemetery",
+      "neighbors": [
+        "gated-yard"
+      ],
+      "exits": [
+        {
+          "to": "gated-yard",
+          "label": "Return through the cemetery gate",
+          "x": 12,
+          "y": 48,
+          "view": "scene"
+        }
+      ],
+      "detail": "Rear sanctuary · rose protection and connected courtyard exploration.",
+      "group": "Gerouge estate",
+      "status": "Locally packaged photographic environment · playable investigation",
+      "zone": "GROUNDS · ENCLOSED CEMETERY",
+      "parent": "gated-yard"
     }
   ]
 }
